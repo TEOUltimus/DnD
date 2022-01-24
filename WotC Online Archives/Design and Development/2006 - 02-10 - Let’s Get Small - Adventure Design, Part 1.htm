@@ -1,0 +1,470 @@
+<html><head><script>var popinvalid='no'</script><script type="text/javascript">var nickname=''; var ent='no'</script> 
+ 
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" language="JavaScript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/PopupSurvey.js"></script><script type="text/javascript" language="JavaScript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/newsince.js"></script><script type="text/javascript" language="JavaScript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/minipop.htm"></script><title>Design &amp; Development: Let’s Get Small: Adventure Design, Part 1</title><script type="text/javascript" language="JavaScript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/menu_NN6.js"></script><script type="text/javascript" language="JavaScript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/basic.js"></script><link rel="STYLESHEET" type="text/css" href="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/default.css">
+<link rel="STYLESHEET" type="text/css" href="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/dndnew2004.css">
+<meta name="description" content="Design &amp; Development: Let’s Get Small: Adventure Design, Part 1">
+<meta name="keywords" content="Jesse Decker, Decker, David Noonan, Noonan, design, development, developer, designer, adventure, monster response, reactive traps, drow">
+<meta name="target" content=",By Jesse Decker and David Noonan ">
+</head>
+<body leftmargin="0" topmargin="0" bgcolor="#ffffff" marginheight="0" marginwidth="0"><div style="width: 910px; position: absolute; margin-left: -455px; left: 50%; top: 0px; z-index:1">
+<table cellpadding="0" cellspacing="0" align="center" border="0" width="910"><tbody><tr bgcolor="#000000"><td height="21"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/spacer37black.gif" alt="" border="0" height="21" width="3"></td></tr></tbody></table>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" border="0" width="910">
+<tbody><tr><td colspan="5"><a href="http://archive.wizards.com/dnd"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/banner_dnd_top.jpg" border="0"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/banner_dnd_bottom.jpg" border="0"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/nav_dnd_spacer_1.jpg" border="0"></a></td></tr>
+<tr valign="top">
+<td valign="top" width="152"><table cellpadding="0" cellspacing="0" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/dnd35left.jpg" border="0" height="623" width="152"><tbody><tr><td valign="top">
+<table cellpadding="0" cellspacing="0" border="0" width="152"><tbody><tr><td align="center"><br><a href="http://archive.wizards.com/dnd/default.aspx"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/home.png" border="0"></a></td>
+</tr>
+<tr><td align="center"><br><a href="http://archive.wizards.com/default.asp?x=dnd/archives"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/3_5DnD.png" border="0"></a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></td>
+<td width="10"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/spacer_1_1.gif" alt="" border="0" height="5" width="10"></td>
+<td valign="top">
+<table cellpadding="0" cellspacing="0" border="0" width="610">
+<tbody><tr><td class="breadcrumb">
+</td><td align="right"></td>
+</tr>
+<tr><td colspan="2"></td></tr>
+<tr><td colspan="2"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="3" width="3"><br><table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody><tr>
+<td width="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/head_dnd_1.jpg" height="20" width="4"></td>
+<td class="nboxhead" align="left" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/dnd_article_2.jpg" valign="middle"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="3" width="3"><a href="http://archive.wizards.com/default.asp?x=dnd/arch/dd" class="articlehead">Design &amp; Development</a></td><td class="nboxdate" align="right" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/dnd_article_3.jpg" valign="top" width="375">02/10/2006<img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="3" width="3"></td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" width="480">
+<tbody><tr>
+<td align="center" width="94"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/dd_feature_sm1.jpg" width="88"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="7" width="5"></td>
+<td valign="top">
+<p align="left"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="10" width="10"><br><span class="size4red"><b>Let’s Get Small: Adventure Design, Part 1</b></span><br><span align="left" class="byline"><i>By Jesse Decker and David Noonan </i></span></p>
+</td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" width="610">
+<tbody><tr>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="7" width="10"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/new_bar.jpg" height="2" width="590"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="7" width="10"></td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" align="center" border="0" width="590">
+<tbody><tr>
+<td valign="top" width="100%">
+<p align="left"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/designdevcolumn1a.jpg" align="right" border="0">We're
+ hoping this column becomes your window into roleplaying design and 
+development -- or at least the way we approach these things here at 
+Wizards of the Coast. We'll handle a wide range of topics in weeks to 
+come, from frank discussions about over- or underpowered material, to 
+the design goals of a certain supplement, to what we think are the next 
+big ideas for the <b>Dungeons &amp; Dragons</b> game. All of this comes bundled with a healthy look at the people and events that are roleplaying R&amp;D.</p>
+<p align="left">Dave Noonan starts an examination of adventure design concerning his own future adventure.</p>
+<hr>
+<p align="left"><i>Wherein Dave uses the word “verisimilitude” no less than six times… counting that one.</i></p>
+<p align="left">My current project is adventure design—specifically a 
+sizeable adventure for low- to mid-level characters. For the last few 
+months, I’ve been doing the nitty-gritty work of designing rooms, 
+statting up NPCs, and figuring out whether the pit should be 40 feet 
+deep or 30 feet with spikes along the bottom.</p>
+<p align="left">I’ve found that adventure design demands a much tighter focus than sourcebook and rules design. When I’m writing something like <i>Dungeon Master’s Guide</i> or <i>Heroes of Battle</i>,
+ I spend most of my time creating tools. As I tap away on my trusty 
+laptop, I’m saying: “Here are some teamwork benefits—go ahead and have 
+fun with these.” When I describe some mysterious monster underneath Lake
+ Dark in Karrnath, I’m saying, “Go forth and make a cool adventure out 
+of this.”</p>
+<p align="left">But when I’m writing an adventure, I’m not creating 
+tools anymore. I’m employing them. As I type away, I’m no longer 
+imagining a vast audience of <b>D&amp;D</b> players who’ll use the tools we make in countless different ways. I’m imagining one table of friends playing <b>D&amp;D</b>, and I’m trying to craft great <b>D&amp;D</b> sessions for those five guys.</p>
+<p align="left">So my focus lately hasn’t been on the grand issues of the <b>D&amp;D</b> hobby (see the “<a href="http://archive.wizards.com/default.asp?x=dnd/dd/20060127a">Flow at the D&amp;D Table</a>” column a few weeks ago for that), but rather on the little elements that I’m trying to shape into a fun <b>D&amp;D</b> adventure. These are tiny issues, but they’re reflective of the tight focus that adventure design demands.</p>
+<p align="left">What follows are some notes that I’ve collected as I 
+worked my through this adventure—prettied up, of course. Seeing me 
+scribble “<i>Drowses! We hates them, we does</i>!” might be entertaining, but it isn’t exactly illuminating.</p>
+<p class="size4" align="left"><b>The Keys to a Good Adventure</b></p>
+<table cellpadding="2" cellspacing="2" align="center" bgcolor="#E6E6E6" border="0" width="550"><tbody><tr bgcolor="#E6E6E6"><td><b>A True-type R&amp;D Confession: </b>Throughout the 30-year history of <b>D&amp;D</b>, we’ve uniformly done a terrible job with locks. Open any <b>D&amp;D</b>
+ adventure, and I’ll bet you find a bunch of locked doors, locked 
+chests, chained-up prisoners, etc. Now find the keys for all those 
+locks… not so easy, is it? Usually, they just aren’t there. As adventure
+ designers, we’ve put the lock in there as a minor obstacle—something 
+that will require a skill check, maybe alert the monsters on the other 
+side of the door, etc. But once we’ve designed our little obstacle, we 
+don’t pay attention to verisimilitude. We never take the time to give 
+the NPCs the keys they’d need to move around their own living quarters 
+and get the stuff out of their own chests.</td>
+</tr>
+</tbody></table><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/designdev_lock.jpg" align="right" border="0"><p align="left">Well,
+ that problem ends with this adventure. The locks have keys—and we tell 
+you where the key is in the description of every lock. And when the 
+players find a key, the adventure tells the DM what lock it opens. It’s a
+ little thing, but it’s overdue. When my playtest group started saying 
+things like “Wow, we’re finding a lot of keys,” I knew I was onto 
+something good.</p>
+<p align="left">Once I committed to a “key for every lock” philosophy, I
+ found I needed to stretch verisimilitude a little. Think about where 
+your house keys are. For probably half the day, they’re inside your 
+house. That’s realistic, but it’s dissatisfying for the players to 
+repeatedly beat down a locked door, take out the bad guys, and only then
+ get the keys that would have opened the lock. So I found myself 
+inventing reasons why there’s a monster in room A3 whose pocket has the 
+key to a chest in room A6. It’s pretty easy to come up with those 
+reasons, but taking that little bit of extra time makes for more 
+satisfying verisimilitude. Depending on how the PCs explore the 
+adventure site, they might get the key first, in which case they’ll feel
+ smart when they use it on the chest. Or maybe they’ll find the chest 
+first and bash it open. Then if they later get the key, they still feel 
+smart for having figured out how the world works—even if their 
+cleverness arrived too late to actually help.</p>
+<p align="left">For the record, there’s one exception in this adventure.
+ There are a few rooms occupied by monsters that aren’t exactly the 
+original builders. Those doors have locks, but the monsters don’t use 
+them, because they don’t have the keys.</p>
+<p class="size4" align="left"><b>Monster Response</b></p>
+<p align="left">Three main adventure sites comprise my adventure. 
+Without getting into too much plot detail, suffice it to say that the 
+sites have historical links with each other, but the current inhabitants
+ of the three sites don’t share those links.</p>
+<p align="left">Three disparate monster groupings gave me the chance to 
+play with some different choices for how monsters respond to PCs 
+invading their homes.</p>
+<p align="left">In real life, if you attack a site full of armed, 
+dangerous people, the entirety of them will respond—probably 
+overwhelmingly, and probably right at the entrance. But that rarely 
+makes for a satisfying <b>D&amp;D</b> game. First, PCs don’t feel a 
+sense of progression when they’re fighting battle after battle in room 
+A1, not exploring the entire adventure site. Second, the PCs don’t get 
+to make interesting noncombat decisions—the “left door or right door” 
+sorts of questions. Third, a dungeon that empties out in response to a 
+PC attack starts to feel like a random monster generator.</p><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/designdev_cato.jpg" align="right" border="0"><blockquote><b>DM:</b> This round, the north door opens and a…[rolls dice]… catoblepas comes through.<br><b>Player:</b> You didn’t have a lot of prep time this week, did you?</blockquote>
+<p align="left">(I should note that once in a great while, you can get away with waves of monsters entering the same room. You can get a good <i>Shaka Zulu</i> thing going, but it’s tiresome when repeated too often.)</p>
+<p align="left"><b>Minimal Monster Response</b><br>Even if the “everyone rush to the entrance” defense plan doesn’t make for a good <b>D&amp;D</b>
+ adventure, you still have a lot of tools for monster response. My three
+ sites take three different approaches. The first site, populated by 
+creatures that are ot-nay oo-tay ight-bray, is intentionally designed 
+with minimal monster response. If the creatures in room A2 hear a battle
+ in room in A1, they shrug and go back to their porridge, because fights
+ in room A1 happen all the time. There are some built-in exceptions, but
+ most of the first site is built to be explored piecemeal. What happens 
+in room A1 stays in room A1. Given that this low-level site will have 
+players still getting used to what their PCs can do, it’s useful to keep
+ it simple—a sort of “shakedown cruise” to start a new campaign.</p>
+<p align="left"><b>Individual Alert</b><br>The second site has smarter 
+denizens, but they don’t necessarily get along all that well with one 
+another. So I can introduce a second sort of monster response: 
+individual alert. When the creatures in room B2 hear a fight in room B1,
+ they get out their weapons, start casting spells, and otherwise hunker 
+down and get ready for a fight. But they stay put, and they don’t spread
+ the news throughout the rest of the site.</p>
+<p align="left">An “individual alert” monster response system does a 
+couple of nice things for an encounter. First, it lets the NPCs use more
+ complex tactics and employ some basic preparation magic—they get to be 
+more interesting bad guys. Second, it rewards players who can use 
+stealth or speed to overwhelm the bad guys in room B1. If they can 
+dispatch the enemies in room B1 quickly, they’re rewarded with 
+unprepared enemies in room B2. The individual alerts have good 
+verisimilitude for the players (they see the consequences of making 
+noise or being stealthy), but the PCs still get the fun of exploring 
+each room in turn, dealing with it, then moving on.</p>
+<p align="left"><b>General Alert</b><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/designdev_response.jpg" align="right" border="0">By
+ the time the PCs reach the third site, the players are more comfortable
+ with their characters, and the DM knows more of what they’re capable. 
+And the third site has a (mostly) unified group of intelligent 
+creatures, so I can take monster response to the “general alert” level.</p>
+<p align="left">Now monsters in room C2 can put a good chunk of the site
+ on alert when they hear the battle in room C1. Players will have to 
+deal with monsters that have been alerted, patrols that the bad-guy 
+leadership sends in response to “trouble at the gates,” and so on. The 
+verisimilitude is really good. The players get a profound “we just 
+kicked over an anthill” sense once they realize that the whole site 
+knows that it’s under attack.</p>
+<p align="left">But general alerts are more work for the DM, who has to 
+manage roving patrols and have a keen sense of timing. All of sudden, 
+questions like “how long does it take the guards in room C4 to put on 
+their armor, talk to the guys in room C5, then head to room C1?” matter a
+ lot more. And DMs already have a lot to keep track of, so it takes some
+ careful design to make general alert monster response work. You want to
+ craft a general alert that feels realistic to the players, but not one 
+that throws the whole adventure site into chaos with monsters running 
+from room to room. If the monster response is too complex, then you’re 
+basically telling the DM: “Redesign this dungeon on the fly, please.”</p>
+<p align="left">Individual alerts and general alerts are more work for 
+the adventure designer, too, because you’re designing each encounter 
+twice: once with monsters going about their daily business and once with
+ alerted monsters. Both encounters have to be interesting—and you 
+probably need to fit them both on the same page. But there’s a big 
+payoff for all that work. The DM can glance down at the adventure, 
+quickly scan what it says in the “if the monsters are alerted” box, and 
+run the encounter with confidence that it’ll feel realistic to the PCs.</p><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/designdev_trap.jpg" align="right" border="0"><p class="size4" align="left"><b>Reactive Traps</b></p>
+<p align="left">All told, this adventure will have something like eighty encounters. But there’s one staple <b>D&amp;D</b> challenge that I’m skipping entirely: the hidden trap that goes off without warning… the booby-trap that PCs just react to.</p>
+<p align="left">You know the type. It’s the poison needle that jabs the rogue picking the lock. It’s the <i>explosive runes</i> on the last page of the book. It’s the <i>slay living</i> spell that goes off whenever someone touches the door of the mausoleum.</p>
+<p align="left">I think these traps are fundamentally dissatisfying. Look at it from the player’s point of view.</p>
+<blockquote><b>Player:</b> I go listen at the door.<br><b>DM:</b> As you move down the corridor, it fills with caustic gas. Make a Fortitude save.<br><b>Player:</b> [Rolls.] An 18.<br><b>DM:</b>
+ Not good enough. Take… [rolls]… 22 points of damage as you choke your 
+way through the gas cloud. Now you’re at the door. Make that Listen 
+check…</blockquote>
+<p align="left">From the player’s point of view, he tried to do 
+something ordinary, and he took damage for it. He eventually got to do 
+what he wanted to do all along. He just took a little damage and earned 
+some XP along the way. It’s almost entirely a mechanical transaction—no 
+decisions involved. The trap’s only function in the overall adventure is
+ to provide some minor attrition.</p>
+<p align="left">Worse, the whole table pays a penalty for that minor 
+attrition. Now the PCs start taking 20 on every Search check. They 
+develop elaborate operating procedures for opening a door. The pace of 
+the game slows to a crawl. I ask myself this: Given that you have a 
+finite amount of time at the <b>D&amp;D</b> table with your friends, how much of that time do you want to devote to door-opening?</p>
+<p align="left">Does that mean no traps? Hardly. It means traps that 
+feel like encounters, where the PCs work their way past them on a 
+round-by-round basis. It means traps that function like interesting 
+obstacles: big, obvious, and cool-looking.</p>
+<p align="left">An example might suffice: I’ve got a room full of 
+swinging, bladed pendulums—an execution chamber that’s damaged and not 
+exactly functioning the way its makers intended. Is it a trap encounter?
+ Yes, the PCs will still get to use Disable Device to get the bladed 
+pendulums to stop swinging. The PC can still use Search to find the 
+hidden button that turns off the pendulums. And PCs can pile debris in 
+the path of the pendulums or figure out the pattern of their swinging 
+and deftly dart across the room.</p>
+<p align="left">No matter how the PCs get past the blades, the players 
+feel like they did something. One way or another, they figured out a way
+ to get through the room. If those blades had suddenly dropped out of 
+the ceiling and started slicing up PCs, the players wouldn’t feel like 
+they did something. They would feel like something was done to them. So 
+I’m promising anyone who plays this adventure: No reactive traps. Listen
+ at the door, sure, but you don’t need to check every single one for a <i>slay living</i> spell.</p>
+<p class="size4" align="left"><b>Drowses! We hates them, we does!</b></p><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/designdev_drow.jpg" align="right" border="0"><p align="left">Now I’m going to vent. In a previous column, we asked, “Which monster doesn’t deserve its place in the <b>D&amp;D</b> monster hall of fame?” The most common response was: the drow.</p>
+<p align="left">I think drow have a terrific spot in the <b>D&amp;D</b> 
+milieu. Conceptually, I love ‘em. But for those of you that made 
+complaints about the specific nuts-and-bolts of drow mechanics, I’m here
+ to tell you: I feel your pain.</p>
+<p align="left">I’m using them as antagonists in part of the adventure, 
+and it’s outrageously difficult to get them to earn their Challenge 
+Rating. Why? Three reasons:</p>
+<p align="left"><b>Reason I hate the drow #1:</b> I’m giving up 1 point 
+of CR off the bat, just because they’re drow. Yeah, I know I get spell 
+resistance and some spell-like abilities, but in a low-level game, a 
+point of CR is huge.</p>
+<p align="left"><b>Reason I hate the drow #2:</b> They’re basic humanoids, so I have to build them with class levels. The rule that says “an <i>n</i>th-level NPC is a CR <i>n</i>
+ monster”… well, let’s just say that the rule isn’t beyond reproach. 
+It’s true of some classes within some level ranges, but it’s simply not 
+accurate as a general rule. I don’t think any designer will tell you 
+with a straight face that a 1st-level NPC wizard is a good challenge for
+ four 1st-level PCs. (Better hope the NPC gets that <i>sleep</i> spell 
+off, huh?) So my low-level drow have 1 point of CR vanish into thin air,
+ and they lose more oomph because they’re built with class levels.</p>
+<table cellpadding="2" cellspacing="2" align="right" bgcolor="#999999" border="0" width="250"><tbody><tr bgcolor="#E6E6E6"><td><b><i>Tangent Alert!: </i></b>In <i>City of the Spider Queen</i>, James Wyatt faced the “drow have anemic hit points” problem. His solution was the <i>amulet of dark blessing</i>, a magic item that bestows 24 temporary hit points on the wearer. So we’ve been dealing with this problem for some time.</td>
+</tr>
+</tbody></table>
+<p align="left"><b>Reason I hate the drow #3:</b> Then, as a final 
+insult, my drow have to take a –2 Constitution penalty. That hits them 
+right at any monster’s bottom line: their hit points. For a monster, hit
+ points effectively determine how long that monster gets to stay 
+onstage. At the point where I’m designing CR 3 drow with only 14 hit 
+points, I’m asking myself, “Are these guys going to survive into the 
+second round?” When I’m designing monsters with a game-time lifespan of 
+12 seconds, I start questioning whether they’re worth the ink.</p>
+<p align="left"><b>Extra bonus reason to hate the drow:</b> It’s true 
+that drow have survivability beyond those 14 hit points. They’ve got 
+spell resistance and probably concealment by virtue of their <i>darkness</i>
+ spell-like ability. But both of those defenses can play at the table in
+ dissatisfying ways. Both spell resistance and the miss chance from 
+concealment are “neener neener” abilities. They turn successes that the 
+player takes for granted into failures. They feel capricious. The wizard
+ “knows” the <i>magic missile</i> is going to work, but then… neener 
+neener, it doesn’t. The fighter rolls a 20, grabs the lucky “crit” dice,
+ but then… neener neener, the miss chance kicks in. The neener neener 
+defenses are fine in moderation. But if you populate a whole dungeon 
+with them, you’re asking for frustrated players.</p>
+<p align="left">Next time, I’ll go through the rest of my notes, 
+including why I’ve got mad love for the gnolls, how to find the right 
+level of “map linearity,” and which encounters tested particularly well.</p>
+<p align="left">We’ll also talk a little more about traps. If you’ve experienced a particularly good obstacle-style trap, zap an email to <a href="mailto:%20%20%20%20%20%20%20%20%20%20%20%20dndcolumn@wizards.com">dndcolumn@wizards.com</a>
+ and tell us about it. You already know how I feel about reactive 
+booby-traps, so keep those to yourself. But tell me about cool traps 
+that demand something of the players.</p><br><p align="left"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/DnD_cb_line.jpg" border="0" height="9" width="590"></p>
+<p align="left"><b>About the Authors</b></p>
+<p align="left"><b>Design: David Noonan</b> is a designer/developer for Wizards of the Coast. His credits include co-designing <i>Dungeon Master's Guide II, Heroes of Battle, </i>and numerous products for the <i>Eberron</i> campaign setting. He lives in Washington state with his wife, son, and daughter.</p>
+<p align="left"><b>Development: Jesse Decker</b> is the development manager for RPGs at Wizards of the Coast. His credits include a two-year stint as editor-in-chief of <i>Dragon</i> magazine; design work on <i>Complete Adventurer</i>, <i>DMG II</i>, and other RPG titles; and development work on numerous <b>D&amp;D</b> products, most of which he can’t talk about yet.</p>
+</td>
+<td valign="top" width="100%"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" height="410" width="1"></td>
+</tr>
+</tbody></table>
+</td></tr>
+<tr>
+<td colspan="2"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="15" width="10"><table cellpadding="0" cellspacing="0" border="0" width="610"><tbody><tr><td width="300">
+<table cellpadding="0" cellspacing="0" border="0" width="301"><tbody><tr><td colspan="3" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1a.jpg" height="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1a.jpg" border="0" height="5" width="301"></td>
+</tr>
+<tr><td background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1c.jpg" width="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1c.jpg" border="0" height="113" width="4"></td>
+<td valign="top" width="292">
+<table cellpadding="0" cellspacing="0" border="0" width="292"><tbody><tr><td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="20" width="5"></td>
+<td class="size3" align="left" width="282"><b>Recent Design &amp; Development
+</b></td>
+<td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="20" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="77" width="5"></td>
+<td valign="top" width="282">
+<div class="boxscroll"><table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070803a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070803a">How to Make a Monster Manual, Part 2</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070803a">08/03/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070727a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070727a">How to Make a Monster Manual, Part 1</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070727a">07/27/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070413a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070413a">Dreamblade Minis… in your D&amp;D Game</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070413a">04/13/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070316a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070316a">Magic Item Compendium, part 3</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070316a">03/16/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070309a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070309a">Magic Item Compendium, part 2</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20070309a">03/09/2007</a></td></tr></tbody></table>
+</div>
+</td>
+<td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="77" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="16" width="5"></td>
+<td align="right" width="282"><a href="http://archive.wizards.com/default.asp?x=dnd/arch/dd" class="seriesmore">(MORE)</a></td>
+<td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="16" width="5"></td>
+</tr>
+</tbody></table>
+</td>
+<td background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1d.jpg" width="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1d.jpg" border="0" height="113" width="4"></td>
+</tr>
+<tr><td colspan="3" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1b.jpg" height="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_1b.jpg" border="0" height="4" width="301"></td>
+</tr>
+</tbody></table>
+</td>
+<td width="8"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="20" width="8"></td>
+<td width="300">
+<table cellpadding="0" cellspacing="0" border="0" width="301"><tbody><tr><td colspan="3" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2a.jpg" height="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2a.jpg" border="0" height="5" width="301"></td>
+</tr>
+<tr><td background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2c.jpg" width="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2c.jpg" border="0" height="113" width="4"></td>
+<td valign="top" width="292">
+<table cellpadding="0" cellspacing="0" border="0" width="292"><tbody><tr><td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="20" width="5"></td>
+<td class="size3" align="left" width="282"><b>Recent Articles</b></td>
+<td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="20" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="77" width="5"></td>
+<td valign="top" width="282">
+<div class="boxscroll"><table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/news/20070418a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/news/20070418a">This Month's <i>Dragon</i> Magazine</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/news/20070418a">04/26/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/ebxe/20070924a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/ebxe/20070924a">Chapter 2: Conflict</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/ebxe/20070924a">09/24/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/frcc/20070918');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/frcc/20070918">Eastern Classes</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/frcc/20070918">09/18/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/frcc/20070911');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/frcc/20070911">Crusaders, Swordsages, Warblades</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/frcc/20070911">09/11/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/4ex/20070904a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/4ex/20070904a"><i>Fortress of the Yuan-Ti</i></a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://archive.wizards.com/default.asp?x=dnd/4ex/20070904a">09/04/2007</a></td></tr></tbody></table>
+</div>
+</td>
+<td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="77" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="16" width="5"></td>
+<td align="right" width="282"><a href="http://archive.wizards.com/default.asp?x=dnd/archives" class="seriesmore">(MORE)</a></td>
+<td width="5"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_dot.jpg" border="0" height="16" width="5"></td>
+</tr>
+</tbody></table>
+</td>
+<td background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2d.jpg" width="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2d.jpg" border="0" height="113" width="5"></td>
+</tr>
+<tr><td colspan="3" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2b.jpg" height="4"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/article_box_2b.jpg" border="0" height="4" width="301"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></td></tr>
+</tbody></table>
+</td>
+<td width="10"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/spacer_1_1.gif" alt="" border="0" height="5" width="8"></td>
+<td valign="top" width="128"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/dnd35right.jpg" border="0"></td>
+</tr>
+<tr><td colspan="5" align="center"><br><div style="width:610px; margin-left:20px;"><div style="width: 100%; text-align:center; margin-bottom: 10px; background-color: #ffffff;">
+	<table cellpadding="5" border="1">
+		<tbody><tr>
+			<td>
+				<h1>The D&amp;D Next Playtest</h1>
+				<p>
+					Work on the next iteration of <i>Dungeons &amp; Dragons</i> is underway, and you can
+					be a part of it! Interested in playtesting D&amp;D Next? It's easy to sign up and download
+					the latest playtest materials. Periodically, we will also send you surveys via email
+					to get your feedback.</p>
+				<p>
+					To get started and download the latest playtest packet, click here:</p>
+				<a href="http://dndplaytest.wizards.com/" type="newwindow" onclick="javascript:pageTracker._trackEvent('DnD', '/dndnext', 'DnDNext - Sign Up - 0813');">
+					<div style="text-align: center;"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/playtest_button.jpg" border="0"></div>
+				</a>
+				<p>
+					<b>For Further Information:</b></p>
+				<p>
+					Questions about the D&amp;D Next Playtest?
+					<a href="http://archive.wizards.com/dnd/Article.aspx?x=dnd/4news/dndnextfaq" type="newwindow">Read the FAQ</a>.
+					You can also
+					<a href="http://archive.wizards.com/dnd/Article.aspx?x=dnd/4ll/20120109" type="newwindow">read the original
+						announcement</a>. Plus, share your opinions, talk with other gamers and stay
+					in touch with D&amp;D game designers by joining the official group page at:
+					<a href="http://community.wizards.com/dndnext" type="newwindow" onclick="return GB_showCenter('', this.href, 405, 680); pageTracker._trackEvent('DnD', 'http://community.wizards.com/dndnext', 'DnDNext - Open Sign Up - 0524');">
+						http://community.wizards.com/dndnext</a>.</p>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+</div><table cellpadding="0" cellspacing="0" border="0" width="910"><tbody><tr><td><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/footer_new_1.jpg" border="0" height="19" width="152"></td>
+<td>
+<table cellpadding="0" cellspacing="0" align="center" background="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/footer_new_2a.jpg" border="0" width="630"><tbody><tr><td align="center">
+<table cellpadding="0" cellspacing="0" align="center" border="0"><tbody><tr><td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="19" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=aboutus/aboutwizards" class="footerlinknew">About Us</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=aboutus/jobs" class="footerlinknew">Jobs</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=newtothegame" class="footerlinknew">New to the Game?</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=insidewizards" class="footerlinknew">Inside Wizards</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=findastore" class="footerlinknew">Find a Store</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=aboutus/press" class="footerlinknew">Press</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://wizards.custhelp.com/cgi-bin/wizards.cfg/php/enduser/std_alp.php" class="footerlinknew">Help</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/white_bullet.gif" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://archive.wizards.com/default.asp?x=sitemap" class="footerlinknew">Sitemap</a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="19" width="7"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/footer_new_3.jpg" border="0"></td>
+</tr>
+</tbody></table><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="3" width="10"><br><table cellpadding="0" cellspacing="0" border="0" width="910"><tbody><tr><td align="center" width="150"><a href="http://www.esrb.org/confirm/wizards-confirmation.jsp"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/ectppswizards.gif" style="margin-top:7px;" border="0"></a></td>
+<td align="center"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="7" width="10"><span class="footerlink">©1995-<script type="text/javascript" language="JavaScript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/currentYear.js"></script>2014 Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc. All Rights Reserved.</span><br><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="3" width="10"><br><a href="http://archive.wizards.com/default.asp?x=copyrightnotice" class="footerlink">Terms of Use</a><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="10" width="10">-<img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="10" width="10"><a href="http://archive.wizards.com/default.asp?x=privacystatement" class="footerlink">Privacy Statement</a></td>
+<td align="center" width="150"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/cleardot.gif" border="0" height="78" width="116"></td>
+</tr>
+</tbody></table><br></td></tr>
+</tbody></table>
+</div>
+
+<div style="position:absolute; margin-left: -120px; left: 50%;  top:69px; width:400px; height:17px; z-index:3"><span class="breadcrumb"><a class="breadcrumb" href="http://www.wizards.com/">Home</a>&nbsp;&gt; <a class="breadcrumb" href="http://archive.wizards.com/default.asp?x=games">Games</a>&nbsp;&gt; <a class="breadcrumb" href="http://archive.wizards.com/dnd">D&amp;D</a>&nbsp;&gt; <a class="breadcrumb" href="http://archive.wizards.com/default.asp?x=dnd/features">Articles</a>&nbsp;</span></div>
+<div style="position:absolute; margin-left: -443px; left: 50%;  top:587px; width:17px; height:17px; z-index:3"><a onmouseout="document.imagesecretdnd.src='/dnd/images/sx.jpg'" onmouseover="document.imagesecretdnd.src='/dnd/images/s.jpg'" href="http://archive.wizards.com/dnd/secretdoor.asp"><img name="imagesecretdnd" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/sx.jpg" alt="You have found a Secret Door!" border="0"></a></div>
+<div style="position:absolute;  margin-left: 190px; left: 50%; top:115px; width:130px; height:17px; z-index:2" align="center">
+<table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/printerfriendly_tiny1.gif" alt="Printer Friendly" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a target="_blank" class="pflink" href="http://archive.wizards.com/default.asp?x=dnd/dd/20060210a&amp;pf=true">
+Printer Friendly</a></td></tr></tbody></table><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="1" width="100"><table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/email_tiny1.gif" alt="Email A Friend" align="middle" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a class="pflink" href="javascript://" onclick="window.open('/global/emailtofriend.asp?url=http://archive.wizards.com/default.asp?x=dnd/dd/20060210a&amp;headline=Let’s Get Small: Adventure Design, Part 1', 'emailWindow', 'left=150, top=50, screenX=200, screenY=100, resizable=yes, scrollbars=no, toolbar=no, width=500, height=540')">
+Email A Friend</a></td></tr></tbody></table><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="1" width="100"><table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/boards_tiny.gif" alt="Discuss This Article" align="middle" border="0"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a class="pflink" target="_blank" href="http://boards1.wizards.com/showthread.php?p=8445786">Discuss This Article</a></td></tr></tbody></table><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/clear_new.gif" height="1" width="100"></div>
+<div style="width: 94px; height: 94px; position: absolute; margin-left: -450px; left: 50%; top: 5px; z-index:25"><a href="http://www.wizards.com/"><img src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/fp_logotest.png" alt="" border="0" height="60" width="94"></a></div>
+<script type="text/javascript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/ga.js"></script>
+<script type="text/javascript"> try { var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-15020098-1']); _gaq.push(['_trackPageview']); } catch(err) { } </script><script type="text/javascript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/jquery.js"></script><script type="text/javascript" src="2006%20-%2002-10%20-%20Let%E2%80%99s%20Get%20Small%20-%20Adventure%20Design,%20Part%201_files/Dnd35NextBox.js"></script></body></html>
+<!--This page is not cached-->

@@ -1,0 +1,17 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:11:06 Aug 12, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:14:03 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+function MakeHitboxRequest(control, campaignCode, hbxcc, hbxpn, hbxan, image)
+{
+   
+}

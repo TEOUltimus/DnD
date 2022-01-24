@@ -1,0 +1,49 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:10:50 Aug 12, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:13:55 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* Global Navigation Control */
+.GlobalNav {
+    background-color:#333333;
+    height:30px;
+    min-width:500px;
+    text-align:left;
+}
+
+.GlobalNav .GlobalNavWizardsLogo {
+    float:left;
+    margin: 10px 10px 0px 5px;
+}
+
+.GlobalNav .GlobalNavWizardsLogo img {
+    border:none;
+}
+
+.GlobalNav a.GlobalNavWizardsLink {
+    color:#fff;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:none;
+    display:block;
+    float:left;
+    margin:8px 0px 0px 0px;
+}
+
+.GlobalNav a.GlobalNavWizardsLink:hover {
+    text-decoration:underline;
+}
+
+.GlobalNav .GlobalNavSearch {
+    float:right;
+    margin:5px 15px 0px 0px;
+}

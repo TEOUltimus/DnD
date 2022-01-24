@@ -1,0 +1,3589 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:10:51 Aug 12, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:14:02 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+
+/* =============================================== */
+/* Module Box Styles */
+/* =============================================== */
+
+
+/* =============================================== */
+/* Master Module Box Wrappers */
+/* =============================================== */
+
+.ModuleBox 
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+}
+
+.ModuleBox2 
+{
+	margin-top: 7px;
+	margin-left: 7px;
+	padding-bottom: 5px;
+	background-color: #e6e3e3;
+	width: 296px;
+}
+
+.ModuleBox3 
+{
+	margin-top: 7px;
+	margin-left: 7px;
+	padding-bottom: 0px;
+	background:url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Event_Locator_Encounters.png') no-repeat center center;
+	width: 296px;
+	height: 175px;
+ 
+}
+
+
+/* =============================================== */
+/* Master Module Box Content */
+/* =============================================== */
+
+.ModuleContent.ModuleBoxLine
+{
+    position: relative;
+	margin-top: 0px;
+	margin-left: 5px; 
+	margin-right: 5px;
+	height: 1px;
+    max-width: 100% -10;	
+	border-bottom: 1px solid #ededed;
+	background-color: #cccccc;
+	overflow: hidden;
+}
+
+.ModuleContent.ModuleBoxLine1
+{
+    position: relative;
+	margin: 0px auto;
+	height: 1px;
+    max-width: 100%;	
+	border-bottom: 1px solid #ededed;
+	background-color: #cccccc;
+	overflow: hidden;
+}
+
+.ModuleContent.ModuleBoxLine2
+{
+    position: relative;
+	margin-top: 0px;
+	margin-left: 5px; 
+	margin-right: 5px;
+	height: 1px;
+    max-width: 100% -10;	
+	border-bottom: 1px solid #cbcbcb;
+	background-color: #aaaaaa;
+	overflow: hidden;
+}
+
+
+.ModuleContent.ModuleBoxTitle
+{
+    position: relative;
+	margin-top: 0px;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;	
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #990000; 
+}
+
+
+.ModuleContent.ModuleBoxHeadline 
+{
+ 	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .95em;
+	color: #000000; 
+}
+
+.ModuleContent.ModuleBoxSub 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .65em;
+	color: #666666; 
+}
+
+.ModuleContent.ModuleBoxNew 
+{
+	color: Red; 
+}
+
+.ModuleContent.ModuleBoxBody 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .7em;
+	color: #000000; 
+}
+
+.ModuleContent.DnDiSmallImage
+{
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 2px;
+	width: 12px;
+	height: 12px;
+}
+
+.ModuleContent.DnDiLargeImage
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+}
+
+.ModuleContent.ModuleBoxFooterLeft  
+{
+	position: relative;
+	float: left;
+}
+
+.ModuleContent.ModuleBoxFooterLeftText  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 3px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .65em;
+	color: #000000; 
+	line-height: 12px;
+}
+
+.ModuleContent.ModuleBoxFooterRight  
+{
+	position: relative;
+	float: right;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .75em;
+	font-weight: bold;
+	color: #000000; 
+	line-height: 17px;
+}
+
+.ModuleLink {
+    text-decoration:none;
+	color: #000000; 
+}
+
+a.ModuleLink:hover {
+    text-decoration:underline;
+}
+
+.ModuleBox.InnerWrapper
+{
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	width: 677px;
+	height: 320px;
+	overflow: hidden;
+}
+
+.ModuleBox.InnerWrapperStretch
+{
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	width: 677px;
+}
+
+.FooterLeftImageBox
+{
+	position: relative;
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+
+.FooterLeftImage
+{
+	height: 208px; 
+	width: 281px;
+}
+
+.FooterLeftHeadline
+{
+	color: #ffcc00;
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: .95em;
+    text-decoration:none;
+	font-weight: bold;
+	margin-left: 5px;
+}
+ 
+
+/* =============================================== */
+/* News & Features / Article Highlighter */
+/* =============================================== */
+
+.NewsFeatures  
+{
+    position: relative;
+    float: left;
+    margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 340px;
+	height: 470px;
+}
+
+.ArticleHighlighterTitle
+{
+    position: relative;
+	margin-top: 0px;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;	
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #990000; 
+}
+
+
+.ArticleHighlighterHead  
+{
+	width: 265px;
+	height: 19px;
+	overflow: hidden;
+}
+
+.ArticleHighlighterSub 
+{
+	width: 265px;
+	height: 12px;
+	overflow:hidden;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .65em;
+	color: #666666; 
+}
+
+.ArticleHighlighterSub a {
+	color: #666666; 
+	text-decoration:none;
+}
+
+.ArticleHighlighterSub a:hover {
+	text-decoration:underline;
+}
+
+.ArticleHighlighterNew 
+{
+	color: Red; 
+}
+
+.ArticleHighlighterBody 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .7em;
+	color: #000000; 
+
+}
+
+.ArticleHighlighterRow  
+{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 328px;
+	height: 63px;
+}
+
+.ArticleHighlighterImage  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	max-width: 100% -10;
+	background-color: #000000;
+	height: 63px;
+	width: 63px;
+	overflow: hidden;
+}
+
+.ArticleHighlighterImage a img {
+	border:none;
+}
+
+.ArticleBoxImage  
+{
+	height: 63px;
+	width: 63px;
+}
+
+.ArticleHighlighterText  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-left: 5px;
+	max-width: 100%;
+	height: 81px;
+	width: 260px;
+	overflow: hidden;
+}
+
+.ArticleHighlighterFooter  
+{
+	position: relative;
+	float: left;
+	margin-top: 9px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 328px;
+	height: 17px;
+}
+
+.ArticleHighlighterHeadline 
+{
+ 	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .90em;
+	color: #000000; 	
+	text-decoration: none;
+}
+
+a.ArticleHighlighterHeadline:hover 
+{
+	text-decoration: underline;
+}
+
+
+/* =============================================== */
+/* Product Highlighter */
+/* =============================================== */
+
+.ModuleBox.ProductReleases  
+{
+	margin-top: 7px;
+	margin-left: 7px;
+	background-color: #ffffff;
+	width: 340px;
+	height: 470px;
+}
+
+.ModuleContent.ProductHighlighterRow  
+{
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 328px;
+	height: 130px;
+}
+
+.ModuleContent.ProductHighlighterImage  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	max-width: 100% -10;
+	height: 130px;
+	width: 115px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ModuleContent.ProductHighlighterImage a img {
+	border:none;
+}
+
+.ProductBoxImage  
+{
+	height: 130px;
+	max-width: 115px;
+}
+
+.ModuleContent.ProductHighlighterText  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-left: 5px;
+	max-width: 100%;
+	height: 130px;
+	width: 208px;
+	overflow: hidden;
+}
+
+.ModuleContent.ProductHighlighterFooter  
+{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 328px;
+	height: 17px;
+}
+
+.ProductBoxHeadline 
+{
+ 	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .95em;
+	color: #000000; 	
+	text-decoration: none;
+}
+
+A.ProductBoxHeadline:hover 
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================== */
+/* Product Highlighter Horizontal */
+/* =============================================== */
+
+.ModuleBox.ProductReleasesHorizontal  
+{
+	margin-top: 7px;
+	margin-left: 7px;
+	background-color: #ffffff;
+	width: 687px;
+	height: 252px;
+}
+
+.ModuleContent.ProductHighlighterRowHorizontal  
+{
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 328px;
+	height: 130px;
+}
+
+.ModuleContent.ProductHighlighterRowHorizontalBasic  
+{
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-left: 18px;
+	margin-right: 0px;
+	width: 115px;
+}
+
+.ModuleContent.ProductHighlighterImageHorizontal 
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	max-width: 100% -10;
+	height: 130px;
+	width: 115px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ModuleContent.ProductHighlighterImageHorizontalBasic 
+{
+    position: relative;
+    float: left;
+	margin: 0 auto;
+	max-width: 100% -10;
+	height: 130px;
+	width: 115px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.ModuleContent.ProductHighlighterImageHorizontalBasic:hover 
+{
+	z-index: 7000;	
+}
+
+
+.ModuleContent.ProductHighlighterImageHorizontal a img {
+	border:none;
+}
+
+.ModuleContent.ProductHighlighterImageHorizontalBasic a img {
+	border:none;
+}
+
+.ProductBoxImageHorizontal  
+{
+	height: 130px;
+	max-width: 115px;
+}
+
+.ModuleContent.ProductHighlighterTextHorizontal  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-left: 5px;
+	max-width: 100%;
+	height: 130px;
+	width: 208px;
+	overflow: hidden;
+}
+
+.ModuleContent.ProductHighlighterFooterHorizontal  
+{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 675px;
+	height: 17px;
+}
+
+.ProductBoxHeadlineHorizontal 
+{
+ 	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .95em;
+	color: #000000; 	
+	text-decoration: none;
+}
+
+.ProductBoxHeadlineHorizontalBasic 
+{
+ 	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .75em;
+	color: #000000; 	
+	text-decoration: none;
+}
+
+A.ProductBoxHeadlineHorizontalBasic:hover 
+{
+	text-decoration: underline;
+}
+ 
+.ModuleContent.ProductHighlighterTextHorizontalBasic  
+{
+
+	margin: 0 auto;
+	max-width: 100%;
+	height: 32px;
+	width: 130px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 13px;
+}
+
+A.ProductBoxHeadlineHorizontal:hover 
+{
+	text-decoration: underline;
+}
+
+.ModuleContent.ProductHighlighterSubHorizontalBasic  
+{
+
+	margin: 0 auto;
+	max-width: 100%;
+	height: 25px;
+	width: 130px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 13px;
+	font-size: .65em;
+	color: #777777;
+	margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================== */
+/* Article Box */
+/* =============================================== */
+
+.ModuleBox.ArticleContent
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	min-height: 500px;
+}
+
+.ModuleContent.ArticleContentWrapper
+{
+    position: relative;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;	
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .9em;
+	color: #000000;     
+}
+
+.ModuleContent.ArticleFooterWrapper
+{
+}
+
+
+.articleHeadline
+{
+    position: relative;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #990000; 
+
+}
+
+.articleHeadline img {
+	padding:0px 0px 0px 5px;
+}
+
+.articleSubHead
+{
+    position: relative;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #000000; 
+
+}
+
+.articleByLine
+{
+    position: relative;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .8em;
+	color: #777777; 
+}
+
+.articleBlurb
+{
+    position: relative;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .8em;
+	color: #777777; 
+}
+
+.articleLine
+{
+	margin-left: 5px; 
+	margin-right: 5px;
+    max-width: 100% -10;
+}
+
+.articleImage
+{
+	margin:3px 0px 0px 0px;
+    position: relative;
+	overflow: hidden;
+    max-width: 100% -10;
+    clear:both;
+}
+
+.articleTop
+{
+    position: relative;
+	margin-top: 5px; 
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .8em;
+	font-weight: bold;
+	color: #000000; 
+}
+
+.articleTop a {
+	color:#000;
+	text-decoration:none;
+}
+
+.articleTop a:hover {
+	text-decoration:underline;
+}
+
+.ArticlePreview {
+	color:Red;
+	padding:0px 3px 0px 3px;
+}
+
+/* =============================================== */
+/* Archive Box */
+/* =============================================== */
+
+.ModuleBox.ArchiveContent
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	min-height: 700px;
+}
+
+.ModuleBox.ArchiveDescriptions
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	min-height: 500px;
+}
+
+/* =============================================== */
+/* Generic Content Box */
+/* =============================================== */
+
+.ModuleBox.GenericContent
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	min-height: 50px;
+}
+
+.ModuleContent.GenericContentWrapper
+{
+    position: relative;
+	margin-top: 5px; 
+	margin-left: 5px; 
+	margin-right: 5px;
+	margin-bottom: 5px;
+    max-width: 100% -10;	
+}
+
+.ModuleContent.Spacer
+{
+    position: relative;
+    max-width: 100% -10;	
+	height: 10px;
+	overflow: hidden;
+}
+
+.ModuleBox.Spacer
+{
+    position: relative;
+    max-width: 100% -10;	
+	height: 10px;
+	overflow: hidden;
+}
+
+
+/* =============================================== */
+/* Short Spotlight Box */
+/* =============================================== */
+
+.ModuleBox.SpotlightShort  
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 225px;
+	height: 334px;
+}
+
+.ModuleContent.SpotlightShortTitle
+{
+    position: relative;
+	margin-top: 5px;
+	margin-left: 5px; 
+	margin-right: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+    height: 41px;
+    line-height: 20px;	
+    font-family:'arial',helvetica,sans-serif; 
+}
+
+.ModuleContent.SpotlightShortImage  
+{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5px;
+	background-color: #000000;
+	height: 190px;
+	width: 215px;
+	overflow: hidden;
+}
+
+.ModuleContent.SpotlightImage  
+{
+	margin: 0 auto;
+	height: 190px;
+	width: 215px;
+}
+
+.SpotlightLink 
+{
+	color: #000000;
+    text-decoration:none;
+}
+
+a.SpotlightLink:hover {
+    text-decoration:underline;
+}
+
+.SpotlightLink2 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #990000; 
+    text-decoration:none;
+}
+
+a.SpotlightLink2:hover {
+    text-decoration:underline;
+}
+
+
+.ModuleContent.SpotlightShortBody 
+{
+	position: relative;	
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .7em;
+	color: #000000; 
+	max-width: 100% -10;
+	overflow: hidden;
+	height: 84px;
+}
+
+.SpotlightShortHorizontalSpacer 
+{
+	position: relative;	
+	float:left;
+	margin: 0 auto;
+	width: 1px;
+	height: 339px;	
+}
+
+
+/* =============================================== */
+/* Horizontal Spotlight Box */
+/* =============================================== */
+
+/*
+
+<div class="HorizontalSpotlightText">
+	Content
+</div>
+
+<ul class="SpotlightList">
+	<li class="SpotlightBullet">Content</li>
+	<li class="SpotlightBullet">Content</li>
+	<li class="SpotlightBullet">Content</li>
+</ul>
+
+*/
+
+.SpotlightButtonImage  
+{
+	border: 0px;
+}
+
+
+.SpotlightList
+{
+	list-style-type: disc;
+	margin-top: 7px; 
+	margin-left: 0px; 
+	padding-left: 20px;
+} 
+
+.SpotlightBullet
+{
+	margin-bottom: 0px;
+}  
+
+
+.SpotlightHorizontal  
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	height: 157px;
+}  
+
+.SpotlightHorizontalImage  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #000000;
+	width: 187px;
+	height: 147px;
+	overflow: hidden;
+}
+
+.HorizontalBoxTitleRow
+{
+    position: relative;
+    margin-left: 5px; 
+	width: 100%;
+	height: 24px;
+}
+
+.HorizontalBoxTitle
+{
+    position: relative;
+	float:left;
+	height: 24px;
+}
+
+.HorizontalIcon  
+{
+    position: relative;
+    float:left;
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 2px;
+	width: 20px;
+	height: 20px;
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/DnDi_Large.png') no-repeat;
+}
+
+
+.HorizontalImage  
+{
+	width: 187px;
+	height: 147px;
+}
+
+
+.SpotlightHorizontalText  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;	
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 485px;
+	height: 147px;
+	overflow: hidden; 
+} 
+
+.SpotlightHorizontalBody 
+{
+	position: relative;	
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .8em;
+	color: #000000; 
+	overflow: hidden;
+	height: 117px;
+	width: 480px;
+}
+
+.HorizontalSpotlightText 
+{
+	position: relative;
+	float:left;
+	width: 475px;
+	height: 117px;
+	overflow: hidden;
+}
+
+.HorizontalSpotlightText.Link 
+{
+	position: relative;
+	float:left;
+	width: 475px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.HorizontalSpotlightText.Button 
+{
+	position: relative;
+	float:left;
+	width: 475px;
+	height: 86px;
+	overflow: hidden;
+}
+
+.HorizontalSpotlightText.Link.Button 
+{
+	position: relative;
+	float:left;
+	width: 475px;
+	height: 73px;
+	overflow: hidden;
+}
+
+
+
+.HorizontalSpotlightLink 
+{
+	position: relative;
+	float:left;
+	width: 475px;
+	text-align: right;
+}
+
+.HorizontalSpotlightButton 
+{
+	position: relative;
+	float:left;
+	width: 475px;
+	margin-top: 2px;
+	height: 23px;
+	text-align: right;
+}
+
+.HorizontalLink 
+{
+	line-height: 18px;
+	font-weight: bold;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.2em;
+	color: #000000; 
+	text-decoration: none;
+}
+
+a.HorizontalLink:hover 
+{
+	text-decoration: underline;	
+}
+ 
+.HorizontalLink2 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #990000; 
+	text-decoration: none;
+}
+
+a.HorizontalLink2:hover 
+{
+	text-decoration: underline;	
+}
+
+/* =============================================== */
+/* Billboard Box */
+/* =============================================== */
+
+
+/*
+
+<!-- headline -->
+<div class="BillboardBHeadline">Test Headline</div>
+
+<!-- subheadline -->
+<div class="BillboardBSubHead">Test Subheadline</div>
+
+<!-- text -->
+<div class="BillboardBText">Text Goes Here... </div>
+
+<!-- link -->
+<div class="BillboardBLinkBox">
+<a href="#" class="BillboardBLink" style="color: #000000">Link Here</a>
+</div>
+
+<!-- image -->
+<div class="BillboardBImageBox">
+<a href="#">
+<img src="/global/images/dnd_4new_products_dndacc_217367200_picMain_en.jpg" class="BillboardBImage" border="0"/>
+</a>
+</div>
+
+<!-- button -->
+<div class="BillboardBButtonBox">
+<a href="/DnD/Subscription.aspx">
+<img src="/dnd/images/4new/SubscribeToDnDInsider.png" border="0"/>
+</a>
+</div>
+
+<!-- list ... place text area -->
+<ul class="BillboardBulletList">
+	<li class="BillboardBullet">Text Goes Here... Text Goes Here... Text Goes Here... Text Goes Here...</li>
+	<li class="BillboardBullet">Text Goes Here... Text Goes Here... Text Goes Here... Text Goes Here...</li>
+	<li class="BillboardBullet">Text Goes Here... Text Goes Here... Text Goes Here... Text Goes Here...</li>
+</ul>
+
+*/
+ 
+.BillboardBWrapper
+{
+	margin: 0 auto;
+	margin-top: 6px;
+	margin-left: 5px;
+	width: 687px;
+	height: 347px;
+	background-color: #000;
+} 
+
+.BillboardBBackground
+{
+	margin: 0 auto;
+	width: 687px;
+	height: 347px;	
+	background: top center no-repeat transparent;
+} 
+
+
+.BillboardBBackground2
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	width: 687px;
+	height: 347px;	
+	background: top center no-repeat transparent;
+} 
+
+
+
+.BillboardBTextBox
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 275px;
+	height: 328px;
+	overflow: hidden;
+	float: left;
+}
+
+
+.BillboardBHeadline
+{
+	width: 100%;
+	text-align: left;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.3em;
+	font-weight: bold;
+} 
+
+.BillboardBSubHead
+{
+	width: 100%;
+	text-align: left;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 0.85em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.BillboardBText
+{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 0.85em;
+	text-decoration: none;
+}
+
+
+.BillboardBImageBox
+{
+	height: 130px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.BillboardBImageBoxTiny
+{
+	height: 88px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.BillboardBImage
+{
+	border: 0px;
+}
+
+.BillboardBLinkBox
+{
+	margin-top: 5px;
+	width: 100%;
+	text-align: right;
+}
+
+.BillboardBLink
+{
+	font-weight: bold;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 0.85em;	
+	text-decoration: none;
+}
+
+a.BillboardBLink:hover
+{
+	text-decoration: underline;
+}
+
+
+.BillboardBButtonBox
+{
+	width: 100%;
+	margin-top: 5px;
+} 
+
+
+.BillboardBulletList
+{
+	list-style-type: disc;
+	margin-top: 7px; 
+	margin-left: 0px; 
+	padding-left: 20px;
+} 
+
+.BillboardBullet
+{
+	margin-bottom: 7px;
+}  
+
+/* =============================================== */
+/* Upcoming Releases Box */
+/* =============================================== */
+
+.ModuleBox.UpcomingReleases  
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	height: 360px;
+}
+
+/* =============================================== */
+/* Core Essentials Box */
+/* =============================================== */
+
+.ModuleBox.CoreEssentials  
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+	min-height: 360px;
+}	
+	
+/* =============================================== */
+/* Content Box Large Stretch */
+/* =============================================== */
+
+.ModuleBox.LargeStretch  
+{
+	margin-top: 7px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	width: 687px;
+}		
+	
+/* =============================================== */
+/* Module Box 2 Content */
+/* =============================================== */
+
+.ModuleBox2.InnerWrapper
+{
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	width: 286px;
+}
+
+.ModuleBox2.ContentBox
+{
+}
+
+.ModuleBox2.Locator  
+{
+	min-height: 127px;
+}
+
+.ModuleBox2.PromotionBox 
+{
+	min-height: 127px;
+}
+
+.ModuleBox2.EncountersLocator  
+{
+	min-height: 127px;
+}
+
+
+
+
+/* =============================================== */
+/* Module Box 3 Content */
+/* =============================================== */
+
+.ModuleBox3InnerWrapper
+{
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	width: 286px;
+}
+
+.ModuleBox3.ContentBox
+{
+}
+
+.ModuleBox3.Locator  
+{
+	 
+}
+ 
+
+
+/* =============================================== */
+/* Main Page Flipper Box */
+/* =============================================== */
+
+.Flipper 
+{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+	height: 400px;
+}
+
+.FlipperPanel 
+{
+    position: relative;
+    margin: 0 auto;
+    width: 983px;
+	height: 327px;
+	border:1px solid transparent;
+}
+
+.FlipperPanel div a img {
+	border:none;
+}
+
+.FlipperControl 
+{
+	margin: 0 auto;
+	margin-top: 10px;
+    position: relative;
+    width: 74px;
+	height: 13px;
+	text-align:center;
+	padding:0px 0px 0px 4px;
+}
+
+.FlipperControl a {
+	outline:none;
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/BillboardCircleGrey.png') no-repeat;
+	padding:0px;
+	margin:0px;
+	height:10px;
+	width:10px;
+	display:block;
+	float:left;
+	margin:0px 2px 0px 2px;
+	
+}
+
+.FlipperControl a.Selected {
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/BillboardCircleRed.png') no-repeat;
+}
+
+.FlipperControl a img {
+	border:none;
+	display:block;
+}
+
+/* =============================================== */
+/* Content Box */
+/* =============================================== */
+
+.ContentBoxLink 
+{
+	margin-left: 5px;
+	padding: 0px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000; 	
+    text-decoration:none;
+    line-height: 19px;
+}
+
+a.ContentBoxLink:hover {
+    text-decoration:underline;
+}
+
+.ContentBoxFooter 
+{
+	margin: 0px auto;
+	margin-top: 5px;
+	padding: 0px;
+	width: 276px;
+	text-align: right;
+}
+.ContentBoxFooterLink 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	color: #000000; 
+	font-weight: bold;	
+	font-size: 1.1em;		
+    text-decoration:none;
+}
+
+a.ContentBoxFooterLink:hover {
+    text-decoration:underline;
+}
+
+.ContentBoxVideo 
+{
+	margin: 0px auto;
+	margin-left: 5px;
+	padding: 0px;	
+
+}
+
+/* =============================================== */
+/* Promotion Box */
+/* =============================================== */
+
+.PromotionImage 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 89px;
+	height: 89px; 
+}
+
+.PromoImage 
+{
+	width: 89px;
+	height: 89px;
+}
+
+.PromotionText 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;	
+	margin-left: 5px;
+	width: 192px;
+	height: 93px;
+	overflow: hidden;
+}
+
+.PromotionHeadline
+{
+	position: relative;
+	margin: 0px auto;
+	width: 192px;
+	height: 17px;
+	overflow: hidden;
+
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .9em;
+	color: #000000; 	
+    text-decoration:none;
+}
+
+ 
+
+.PromotionBody
+{
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+	width: 192px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .75em;
+	color: #000000; 	
+    text-decoration:none;	
+}
+
+.PromotionLink 
+{
+	color: #000000;
+    text-decoration:none;
+}
+
+a.PromotionLink:hover {
+    text-decoration:underline;
+}
+
+
+
+/* =============================================== */
+/* Encounters Locator Box */
+/* =============================================== */
+
+.EncountersLocatorBody
+{
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+	width: 286px;
+	overflow: hidden;	
+}
+
+.EncountersLocatorSpacer
+{
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+	width: 286px;
+	height: 48px;
+}
+
+.EncountersLocatorText
+{
+	position: relative;
+	float: left;
+	width: 271px;
+	margin: 0px auto;
+	margin-left: 5px;
+	padding: 0px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .75em;
+	color: #eeeeee; 	
+    text-decoration:none;	
+	line-height: 15px;
+}
+
+.EncountersLocatorRadio
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+
+.EncountersLocatorRadioText
+{
+	position: relative;
+	float: left;
+	font-family:'arial',helvetica,sans-serif; 
+	margin: 0px auto;
+	margin-top: 1px;
+	margin-left: 2px;
+	margin-right: 5px;
+	padding: 0px;
+	font-size: .75em;
+	color: #eeeeee; 	
+    text-decoration:none;	
+}
+
+.EncountersLocatorLink
+{
+	color: #eeeeee; 	
+    text-decoration:none;	
+}
+
+a.EncountersLocatorLink:hover
+{
+	color: #eeeeee; 	
+    text-decoration:underline;	
+}
+
+
+.EncountersLocatorButtonWrapper
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.EncountersLocatorButtonRow
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-left: 5px;
+}
+
+.EncountersLocatorSearch
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	margin-left: 5px;
+}
+
+.EncountersLocatorSearchBox
+{
+	border: 1px solid black;
+	width: 210px;
+	height: 18px;
+}
+
+.EncountersLocatorSearchButton
+{
+	margin-bottom: -7px;
+}
+
+/* =============================================== */
+/* Locator Box */
+/* =============================================== */
+
+.LocatorBody
+{
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+	width: 286px;
+	overflow: hidden;	
+}
+
+.LocatorText
+{
+	position: relative;
+	float: left;
+	width: 276px;
+	margin: 0px auto;
+	padding: 0px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .80em;
+	color: #000000; 	
+    text-decoration:none;	
+}
+
+.LocatorRadio
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	margin-left: 5px;
+}
+
+
+.LocatorRadioText
+{
+	position: relative;
+	float: left;
+	font-family:'arial',helvetica,sans-serif; 
+	margin: 0px auto;
+	margin-top: 1px;
+	margin-left: 2px;
+	margin-right: 5px;
+	padding: 0px;
+	font-size: .80em;
+	color: #000000; 	
+    text-decoration:none;	
+}
+
+.LocatorSearch
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.LocatorSearchBox
+{
+	border: 1px solid black;
+	width: 190px;
+}
+
+.LocatorSearchButton
+{
+	margin-bottom: -5px;
+}
+
+
+/* =============================================== */
+/* Tool Box */
+/* =============================================== */
+
+.ToolBoxRow 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-bottom: 7px;
+	padding: 0px;
+	width: 286px;
+}
+
+.ToolBoxImage 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 4px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+	background-color: Black;
+}
+
+.ToolImage 
+{
+	width: 50px;
+	height: 50px;
+}
+
+.ToolBoxText 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;	
+	margin-left: 5px;
+	width: 231px;
+}
+
+.ToolBoxHeadline
+{
+	position: relative;
+	float: left;	
+	margin: 0px auto;
+	width: 231px;
+	height: 19px;
+	overflow: hidden;	
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000; 	
+}
+
+ 
+
+.ToolBoxBody
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 231px;
+	height: 43px;
+	overflow: hidden;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.0em;
+	color: #000000; 
+}
+
+.ToolBoxLink
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 231px;
+	height: 14px;
+	overflow: hidden;	
+	text-align: right;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000;
+}
+
+a.ToolLinks 
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+ 
+a.ToolLinks:hover
+{
+	text-decoration: underline;
+}
+
+
+.ToolBoxFooter 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 2px;
+	padding: 0px;
+	width: 286px;
+}
+
+
+.ToolBoxFooterLeft  
+{
+	position: relative;
+	float: left;
+}
+
+.ToolBoxFooterLeftText  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 3px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .90em;
+	color: #000000; 
+	line-height: 12px;
+}
+
+.ToolBoxFooterRight  
+{
+	position: relative;
+	float: right;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000; 
+	line-height: 17px;
+}
+
+
+.ToolBoxDnDiSmallImage
+{
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 2px;
+	width: 12px;
+	height: 12px;
+}
+
+.ToolBoxDnDiLargeImage
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+/* =============================================== */
+/* Tool Box 2 Styles */
+/* =============================================== */
+
+
+.ToolBox2Row 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-bottom: 7px;
+	padding: 0px;
+	width: 286px;
+}
+
+.ToolBox2Text 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;	
+	width: 286px;
+}
+
+.ToolBox2Headline
+{
+	position: relative;
+	float: left;	
+	margin: 0px auto;
+	width: 286px;
+	height: 19px;
+	overflow: hidden;	
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000; 	
+}
+
+ 
+
+.ToolBox2Body
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 286px;
+	/*height: 43px;*/
+	/*overflow: hidden;*/
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.0em;
+	color: #000000; 
+}
+
+.ToolBox2Link
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 286px;
+	height: 14px;
+	overflow: hidden;	
+	text-align: right;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000;
+}
+
+ 
+
+.ToolBox2Footer 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 2px;
+	padding: 0px;
+	width: 286px;
+}
+
+
+.ToolBox2FooterLeft  
+{
+	position: relative;
+	float: left;
+}
+
+.ToolBox2FooterLeftText  
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 3px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .90em;
+	color: #000000; 
+	line-height: 12px;
+}
+
+.ToolBox2FooterRight  
+{
+	position: relative;
+	float: right;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000; 
+	line-height: 17px;
+}
+
+
+.ToolBox2DnDiSmallImage
+{
+	margin: 0 auto;
+	margin-left: 3px;
+	margin-top: 2px;
+	width: 12px;
+	height: 12px;
+}
+
+.ToolBox2DnDiLargeImage
+{
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+}
+
+
+.ToolBox2Line 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-bottom: 2px;
+	width: 100%;
+	overflow: hidden;
+	height: 1px;
+	border-top: 1px solid #cccccc;
+}
+
+
+
+/* =============================================== */
+/* Staff Blog Box */
+/* =============================================== */
+
+.StaffBlogBoxRow 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-bottom: 7px;
+	padding: 0px;
+	width: 286px;
+}
+
+.StaffBlogBoxImage 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 4px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+	background-color: Black;
+}
+
+.StaffBlogImage 
+{
+	width: 50px;
+	height: 50px;
+}
+
+.StaffBlogBoxText 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;	
+	margin-left: 5px;
+	width: 231px;
+}
+
+.StaffBlogBoxHeadline
+{
+	position: relative;
+	float: left;	
+	margin: 0px auto;
+	width: 231px;
+	height: 19px;
+	overflow: hidden;	
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000; 	
+}
+
+ 
+
+.StaffBlogBoxBody
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 231px;
+	height: 43px;
+	overflow: hidden;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.0em;
+	color: #000000; 
+}
+
+.StaffBlogBoxLink
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 231px;
+	height: 14px;
+	overflow: hidden;	
+	text-align: right;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000;
+}
+
+a.StaffBlogLinks 
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+ 
+a.StaffBlogLinks:hover
+{
+	text-decoration: underline;
+}
+
+
+/* =============================================== */
+/* Archive Index Module */
+/* =============================================== */
+
+.ArchiveIndexWrapper 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	width: 328px;
+	height: 100px;
+}
+
+.ArchiveIndexImage 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;
+	width: 63px;
+	height: 63px;
+	background-color: Black;
+}
+
+.IndexImage 
+{
+	width: 63px;
+	height: 63px;
+}
+
+.ArchiveIndexText 
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0px;	
+	margin-left: 5px;
+	width: 245px;
+	height: 100px;
+}
+
+.ArchiveIndexHeadline
+{
+	position: relative;
+	margin: 0px auto;
+	width: 240px;
+	height: 17px;
+	overflow: hidden;
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: .85em;
+	color: #000000; 	
+    text-decoration:none;
+}
+
+.ArchiveIndexBody
+{
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+	width: 240px;
+	height: 85px;
+	overflow: hidden;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: .70em;
+	color: #000000; 	
+    text-decoration:none;	
+}
+
+.IndexLink 
+{
+	color: #000000;
+    text-decoration:none;
+}
+
+a.IndexLink:hover {
+    text-decoration:underline;
+}
+
+
+/* =============================================== */
+/* Gallery Preview */
+/* =============================================== */
+
+.GalleryPreviewWrapper
+{
+    position: relative;
+	width: 687px;
+	margin: 0px auto;
+	margin-top: 7px;
+	margin-left: 5px;
+}
+
+.GalleryWrapper
+{
+    position: relative;
+    float: left;
+	margin: 0px auto;
+	margin-bottom: 7px;
+    float: left;
+	width: 687px;
+	min-height: 280px;	
+	background-color: #ffffff;
+} 
+ 
+
+.GallerySpacer
+{
+    position: relative;
+    float: left;
+	width: 677px;
+    margin: 0px auto;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+
+} 
+
+.GalleryPreview
+{
+    position: relative;
+	width: 687px;
+
+}
+
+.GalleryTitle 
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #990000; 
+}
+
+.GalleryMarkupRow
+{
+	position:relative;	
+}
+
+.SeeMore {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+	float:right;
+	font-size:.75em;
+	margin:0px 10px 0px 0px;
+}
+
+a.SeeMore:hover {
+	text-decoration:underline;
+}
+	
+.GalleryMarkupRow .GalleryPagingLinks {
+	margin:0px 17px 0px 0px;
+}
+
+/* =============================================== */
+/* Gallery */
+/* =============================================== */
+
+.Gallery {
+	overflow:hidden;
+}
+
+.GalleryPagingLinks {
+	float:right;
+	margin:0px 10px 0px 0px;
+}
+
+.GalleryPagingLinks span {
+	display:block;
+	float:left;
+	visibility:hidden;
+	width:5px;
+}
+
+.GalleryPagingLinks a {
+	text-decoration:none;
+	font-family:Arial;
+	font-size:.75em;
+	color:#000;
+	display:block;
+	border:1px solid #cccccc;
+	float:left;
+	padding: 2px 7px 2px 7px;
+	outline:none;
+}
+
+.GalleryPagingLinks a.Selected {
+	background-color:#e2e2e2;
+}
+
+.GalleryImagesPlaceHolder,
+.GalleryImages {
+	position:relative;
+	float:left;	
+	width:677px;
+	top:0px;
+}
+
+.GalleryImage {
+	float:left;
+	margin:5px;
+	border: 1px solid #cccccc;
+}
+
+.GalleryImage img {
+	display:block;
+	border:none;
+	width:123px;
+	height:97px;
+}
+
+.GalleryImagesPlaceHolder {
+	border:1px solid #ccc;	
+	visibility:hidden;
+	width:673px;
+	margin:5px 0px 4px 0px;
+	background:url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/AjaxIndicator.gif') no-repeat center center;
+}	
+
+.GalleryImagesPlaceHolder .GalleryImage {
+	visibility:hidden;
+	margin:0px 0px 6px 0px;	
+}
+
+.GalleryImagesParent {
+	width:2031px;
+	clear:both;
+	overflow:hidden;
+}
+
+.GalleryText {
+	font-size:.75em;
+	text-align:center;
+}
+
+.ArtGallerySpacer
+{
+	height: 1px;
+	width: 100%;
+	position: relative; 
+	clear: both;
+}
+
+.ArtGalleryText p
+{
+	font-size: 1.0em; 
+}
+
+
+/* =============================================== */
+/* Core Essentials */
+/* =============================================== */
+/*
+<div class="ProductDisplayWrapper">
+	<div class="ProductDisplayHeadline">
+		<a href=" LINK TO PRODUCT " class="ProductDisplayLink">///HEADLINE///</a>
+    </div>
+    <div class="ProductDisplayImageBox">
+		<a href="LINK TO PRODUCT">
+			<img src="///PIC2///" class="ProductDisplayImage"/>
+        </a>
+    </div>
+	<div class="ProductDisplayText">
+	    <div class="ProductDisplayRelease">///DISPLAY DATE///</div>
+        ///INTRO///
+	</div>
+</div>
+*/
+
+.ProductDisplayWrapper
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	width: 220px;
+	margin-left: 3px;
+	margin-right: 2px;
+}
+
+.ProductDisplayHeadline
+{
+	margin: 0px auto;
+	margin-bottom: 5px;
+	width: 220px;
+	height: 35px;
+	line-height: 20px;
+	text-align: center;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.ProductDisplayLink
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+a.ProductDisplayLink:hover
+{
+	text-decoration: underline;
+}
+
+.ProductDisplayImageBox
+{
+	margin: 0px auto;
+	width: 220px;
+	height: 190px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ProductDisplayImage
+{
+	border: 0px;
+	max-width: 165px;
+	height: 190px;
+}
+
+.ProductDisplayText
+{
+	margin: 0px auto;
+	margin-top: 5px;	
+	border: 0px;
+	width: 210px;
+	height: 95px;
+	font-size: .70em;
+	overflow: hidden;
+}
+
+.ProductDisplayRelease
+{
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*
+<div class="ProductDisplayWrapperSmall">
+	<div class="ProductDisplayImageBoxSmall">
+		<a href="LINK TO PRODUCT">
+			<img src="///PIC1///" class="ProductDisplayImageSmall"/>
+		</a>
+    </div>
+    <div class="ProductDisplayHeadlineSmall">
+	    <a href=" LINK TO PRODUCT " class="ProductDisplayLinkSmall">///HEADLINE///</a>
+    </div>
+    <div class="ProductDisplayReleaseSmall">///DISPLAY DATE///</div>
+</div>
+*/
+
+.ProductDisplayWrapperSmall
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	width: 150px;
+	margin-left: 9px;
+	margin-right: 9px;
+	margin-top: 5px;
+}
+
+.ProductDisplayImageBoxSmall
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	width: 150px;
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ProductDisplayImageSmall
+{
+	border: 0px;
+	height: 130px;
+}
+
+.ProductDisplayHeadlineSmall
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	margin-left: 10px;
+	width: 130px;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold;	
+	text-align: center;
+}
+
+.ProductDisplayLinkSmall
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+a.ProductDisplayLinkSmall:hover
+{
+	text-decoration: underline;
+}
+
+.ProductDisplayReleaseSmall
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	width: 150px;
+	margin: 0px auto;
+
+	margin-top: 3px;	
+	border: 0px;
+	font-size: .80em;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+/* =============================== */
+
+
+
+
+
+
+
+.CoreEssentialsWrapper1
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	width: 220px;
+}
+
+.CoreEssentialsWrapper2
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 220px;
+}
+
+.CoreEssentialsWrapper3
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	width: 220px;
+}
+
+.CoreEssentialsHeadline
+{
+	margin: 0px auto;
+	margin-bottom: 5px;
+	width: 220px;
+	height: 35px;
+	line-height: 17px;
+	text-align: center;
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.1em;
+}
+
+.CoreEssentialsLink
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+a.CoreEssentialsLink:hover
+{
+	text-decoration: underline;
+}
+
+.CoreEssentialsImageBox
+{
+	margin: 0px auto;
+	width: 220px;
+	height: 190px;
+	text-align: center;
+}
+
+.CoreEssentialsImage
+{
+	border: 0px;
+	width: 145px;
+	height: 190px;
+}
+
+
+.CoreEssentialsText
+{
+	margin: 0px auto;
+	margin-top: 5px;	
+	border: 0px;
+	width: 220px;
+	height: 85px;
+	font-size: .75em;
+	overflow: hidden;
+}
+
+
+/* =============================================== */
+/* Wrappers */
+/* =============================================== */
+
+
+.TOCContent
+{
+	width: 687px;
+	min-height: 500px;
+}
+
+.toolContent
+{
+
+}
+
+.eventContent
+{
+}
+
+.wrapperContent
+{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 677px;
+}
+
+/* =============================================== */
+/* Article Footer Short */
+/* =============================================== */
+
+.ModuleContent.ArticleFooterShortWrapper2 
+{
+	position: relative;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	background-color:#ffffff;
+	width: 687px;
+	height: 42px; 
+}
+
+.ModuleContent.ArticleFooterShortWrapper 
+{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color:#ffffff;
+	width: 687px;
+	height: 42px; 
+}
+
+.ArticleFooterShort 
+{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color:#e6e3e3; 
+	width: 677px;
+	height: 32px;
+}
+
+.ArticleFooterShort .AddThis {
+	float:right;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+
+.ArticleFooterShort a {
+	font-weight:normal;
+	color:#000;
+	display:block;
+	text-decoration:none;
+	font-size:.8em;
+	font-weight:bold;
+
+	margin-top: 3px;
+}
+
+.ArticleFooterShort a:hover {
+	text-decoration:underline;
+}
+
+.ArticleFooterShort .ArticleFooterDiscuss {
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/DiscussSmall.png') no-repeat left center;
+	line-height:22px;
+	height: 22px;
+	padding:0px 0px 0px 23px;
+	margin:5px 10px 0px 10px;
+    float: left;
+}
+
+.ArticleFooterShort .ArticleFooterEmail {
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/EmailSmall.png') no-repeat left center;
+	line-height:22px;
+	height: 22px;	
+	padding:0px 0px 0px 23px;
+	margin:5px 10px 0px 10px;
+    float: left;
+}
+
+.ArticleFooterShort .ArticleFooterPrint {
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/PrintSmall.png') no-repeat left center;
+	line-height:22px;
+	height: 22px;
+	padding:0px 0px 0px 23px;
+	margin: 5px 10px 0px 10px;
+    float: left;
+}
+
+.ArticleFooterShort .ArticleFooterDownload {
+	background: url('/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/DownloadSmall.png') no-repeat left center;
+	line-height:22px;
+	height: 22px;
+	padding:0px 0px 0px 23px;
+	margin:5px 10px 0px 10px;
+    float: left;
+}
+
+
+
+/* =============================================== */
+/* Podcast */
+/* =============================================== */
+
+.PodcastBox
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	margin-bottom: 15px;	
+	width: 100%;
+	height: 36px;
+	background-color: #cccccc;
+}
+
+.PodcastDownloadImageBox
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 10px;
+	margin-bottom: 6px;
+}
+
+.PodcastDownloadTextBox
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 5px;
+	color:#000;
+	font-size: .90em;
+	width: 510px;
+	line-height: 13px;
+	 
+}
+
+/* =============================================== */
+/* Author Box */
+/* =============================================== */
+
+.author
+{
+	position:relative;
+	float: left;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-top: 1px solid gray;
+	width: 100%;
+	padding-top: 5px;
+}
+
+/* =============================================== */
+/* mlink tag support */
+/* =============================================== */
+
+
+.mlinksNew 
+{
+	color: #000;
+    text-decoration: none;
+}
+
+a.mlinksNew:hover {
+    text-decoration: underline;
+}
+
+.mlinksNew2 
+{
+	color: #999999;
+    text-decoration:none;
+}
+
+/* =============================================== */
+/* tilt image tag support */
+/* =============================================== */
+
+ 
+
+.operaWrapper_lg {
+	margin: 5px; 
+}
+ 
+.imageFull_lg {
+ 
+}
+
+ 
+.imageShadow_lg 
+{
+ 
+}
+
+ 
+
+
+.imageFull_lg_opera {
+ 
+}
+
+ 
+
+
+
+
+
+.tiltOuterWrapper_lg 
+{
+ margin-left: 10px;
+ 
+ 
+}
+
+.tiltInnerWrapper_lg 
+{
+	margin-top: -4px;
+}
+
+.droplg1div 
+{
+	float: right;
+}
+
+.droplg1main 
+{
+ 	float: left;
+}
+
+.droplg1right 
+{
+	float: right;
+	width: 15px;
+	background:url('/web/20100812111051/http://www.wizards.com/dnd/globals/scripts/rotate/droplg_1d.jpg');	
+}
+
+.droplg1bottom 
+{
+	float: right;
+	height: 15px; 
+	background:url('/web/20100812111051/http://www.wizards.com/dnd/globals/scripts/rotate/droplg_1b.jpg');
+}
+
+.droplg1bottomleft 
+{
+	float: left;
+	width: 15px;
+	height: 15px; 
+}
+
+.droplg1bottomright 
+{
+	float: right;
+	width: 15px;
+	height: 15px; 
+}
+
+
+/* =============================================== */
+/* dddiicon tag support */
+/* =============================================== */
+
+/* <div class="DDiIconLarge"><!--icon--></div> */
+
+.DDiIconLarge 
+{
+	background:transparent url(/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/DnDi_Large.png) no-repeat scroll 0 0;
+	height:23px;
+	width:20px;
+	margin-left: 5px;
+	margin-top: 1px;
+	display: inline-block;
+	vertical-align: bottom; 
+	position: relative;
+	*position: absolute;
+}
+
+/* <div class="DDiIconSmall"><!--icon--></div> */
+
+.DDiIconSmall 
+{
+	background:transparent url(/web/20100812111051/http://www.wizards.com/dnd/Globals/Images/Icons/DnDi_Small.png) no-repeat scroll 0 0;
+	height:12px;
+	width:12px;
+	margin-left: 4px;
+	margin-top: 1px;
+	display: inline-block;
+	vertical-align: bottom; 
+	position: relative;
+	*position: absolute;
+}
+
+
+/* =============================================== */
+/* Staff Bios / bio tag support                    */
+/* =============================================== */
+
+
+.BioFooterStaffBios
+{
+	color: #ffcc00;
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: .95em;
+    text-decoration:none;
+	font-weight: bold;
+}
+ 
+
+.BioFooterWrapper
+{
+	color: #cccccc;
+    font-family: arial;
+    font-size: .70em;
+    text-decoration: none;
+    margin-top: 5px;
+    overflow: hidden;
+    height: 204px;
+}
+
+.BioFooterImageBox
+{
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.BioFooterImage
+{
+	width: 66px;
+	height: 66px;
+}
+
+.BioFooterHeadline
+{
+	color: #eeeeee;
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.BioFooterHeadline:hover
+{
+	text-decoration:underline;
+}
+
+.BioFooterSubHead
+{
+	color: #eeeeee;
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline;
+}
+ 
+ 
+ 
+
+/* =============================================== */
+/* Author Bios / authorbio tag support             */
+/* =============================================== */
+
+
+.BioAuthorHeader
+{
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: 1.3em;
+    text-decoration:none;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #990000;
+}
+ 
+
+.BioAuthorWrapper
+{
+    font-family: arial;
+    font-size: 1.0em;
+    margin-top: 3px;
+}
+
+.BioAuthorImageBox
+{
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	margin-top: 6px;
+	width: 66px;
+}
+
+.BioAuthorTextBox
+{
+	position: relative;
+	float: left;
+	margin-top: 4px;
+	width: 595px;
+}
+
+.BioAuthorImage
+{
+	width: 66px;
+	height: 66px;
+}
+
+.BioAuthorHeadline
+{
+	color: #000000;
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: 1.25em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.BioAuthorHeadline:hover
+{
+	text-decoration:underline;
+}
+
+.BioAuthorSubHead
+{
+	color: #000000;
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: inline-block;
+} 
+ 
+ 
+/* =============================================== */
+/* Wallpapers Control Support */
+/* =============================================== */ 
+
+/* 
+<div class="wallpaperwrapper">
+<div class="wallpaperspacer">
+
+<!-- wallpaper -->
+<div class="wallpapermaster">
+<!-- thumb -->
+<div class="wallpaperrthumb"><img class="wallpaperimage" src="/dnd/images/wallpaper/wallpaper_DMG2_1th.jpg"/></div>
+<!-- text -->
+<div class="wallpapertext">Sample text. You can describe the thumbnail for three lines of text.</div>
+<!-- link -->
+<div class="wallpaperbullets">
+	<ul class="wallpaperlist">
+		<li class="wallpaperbullet">	
+			<a class="wallpaperlink" href="/dnd/images/wallpaper/wallpaper_dmg2_1_1280.jpg">1280 x 800</a>
+		</li>
+		<li class="wallpaperbullet">	
+			<a class="wallpaperlink" href="/dnd/images/wallpaper/wallpaper_dmg2_1_1280.jpg">1280 x 800</a>
+		</li>
+		<li class="wallpaperbullet">	
+			<a class="wallpaperlink" href="/dnd/images/wallpaper/wallpaper_dmg2_1_1280.jpg">1280 x 800</a>
+		</li>
+  	</ul>
+</div>
+</div>
+
+</div>
+
+<div class="wallpaperbuffer"><!-- spacer --></div>
+</div>
+*/ 
+ 
+ 
+.wallpaperwrapper
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.wallpaperspacer
+{
+	position: relative;
+	float: left;
+	margin-left: 22px;
+}
+
+.wallpapermaster
+{
+	position: relative;
+	float: left;
+	width: 192px;
+	height: 181px;
+	overflow: hidden;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+ 
+.wallpapermastertext
+{
+	position: relative;
+	float: left;
+	width: 192px;
+	height: 223px;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-top: 10px;
+} 
+ 
+.wallpaperthumb 
+{
+	position: relative;
+	float: left;
+	width: 190px;
+	height: 119px;
+	overflow: hidden;
+	border: 1px solid #bbbbbb;
+}
+ 
+.wallpaperimage 
+{
+	width: 190px;
+	height: 119px;
+	border: 0px;
+}
+ 
+.wallpapertext 
+{
+	position: relative;
+	float: left;
+	width: 186px;
+	height: 39px;
+	margin-top: 3px;
+	margin-left: 3px;
+	overflow: hidden;
+		
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: .90em;
+    text-decoration: none;
+    line-height: 12px;
+}
+ 
+.wallpaperbullets 
+{
+	position: relative;
+	float: left;
+	width: 186px;
+	margin-left: 3px;
+}
+
+.wallpaperlist 
+{
+	list-style-type: disc;
+	margin-top: 7px; 
+	margin-left: 65px; 
+	padding-left: 0px;
+}
+
+.wallpaperbullet 
+{
+	margin-bottom: 0px;
+}
+
+
+.wallpaperlink 
+{
+    font-family:'arial',helvetica,sans-serif; 
+    font-size: 1.0em;
+    text-decoration: underline;
+    line-height: 12px;
+}
+
+a.wallpaperlink:hover 
+{
+}
+
+.wallpaperbuffer
+{
+	height: 10px;
+	width: 100%;
+	position: relative; 
+	clear: both;
+} 
+ 
+ 
+/* =============================================== */
+/* Toggle Bar Support */
+/* =============================================== */ 
+
+.togglebarWrapper
+{
+	position: relative;
+	float: left;
+	width: 100%;
+} 
+
+.togglebarHeadline
+{
+	position: relative;
+	float: left;
+	width: 100%;
+
+	font-weight: bold;
+}  
+ 
+.togglebarLink
+{
+	color: Black;
+	text-decoration: none;
+}
+
+a.togglebarLink:hover
+{
+	text-decoration: underline;
+}
+
+
+.togglebarBody
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.togglebarText
+{
+	position: relative;
+	float: left;
+	width: 100% -10;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* =============================================== */ 
+ 
+.GenericContentSpacer
+{
+	height: 1px;
+	width: 100%;
+	position: relative; 
+	clear: both;
+} 
+
+
+
+.fooltablelink {
+    text-decoration:none;
+	color: red; 
+}
+
+a.fooltablelink:hover {
+    text-decoration:underline;
+}
+
+
+.vMmodalInnerWrapper
+{
+	position: relative;
+	width: 100% -40;
+	margin-left: 10px; 
+	margin-right: 10px; 
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* =============================================== */
+/* Accordion Nav */
+/* =============================================== */
+
+ 
+ 	
+		/*
+			Vertical Accordions
+		*/
+		
+		.accordion_toggle {
+			display: block;
+			height: 26px;
+			width: 100%;
+		    background: url(/web/20100812111051/http://www.wizards.com/DnD/Globals/Images/accordion_toggle.jpg) no-repeat top right ;	
+			line-height: 26px;
+			color: #000000;
+			border-bottom: 1px solid #ffffff;
+			cursor: pointer;
+			margin: 0 0 0 0;
+        	font-weight: bold;    
+        	text-decoration: none;
+	        outline: none;
+	        font-size: .9em;    
+		}
+		
+		.accordion_toggle_active {
+			background: url(/web/20100812111051/http://www.wizards.com/dnd/globals/images/accordion_toggle_active.jpg) no-repeat top right ;
+			color: #000000;
+			border-bottom: 1px solid #ffffff;
+		}
+		
+		.accordion_content {
+			background-color: #ffffff;
+			overflow: hidden;
+		}
+			
+			
+		/*	
+			.accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				
+			}
+			
+			.accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+		
+*/
+
+		/*
+			
+		.vertical_accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 600px;
+			background: url(/web/20100812111051/http://www.wizards.com/dnd/Globals/Styles/~/dnd/globals/images/accordion_toggle.jpg) no-repeat top right #a9d06a;
+			padding: 0 10px 0 10px;
+			line-height: 30px;
+			color: #ffffff;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 12px;
+			color: #000000;
+			border-bottom: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+ 
+		.vertical_accordion_toggle_active {
+			background: url(/web/20100812111051/http://www.wizards.com/dnd/Globals/Styles/~/dnd/globals/images/accordion_toggle_active.jpg) no-repeat top right #e0542f;
+			color: #ffffff;
+			border-bottom: 1px solid #f68263;
+		}
+ 
+		.vertical_accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+		}
+ 
+			.vertical_accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+ 
+			.vertical_accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+  		
+        /*
+ 
+		
+		/*
+		
+		.horizontal_accordion_toggle {
+	 
+			float: left;	 
+	 
+ 
+			display: block;
+			height: 100px;
+			width: 30px;
+			background: url(/web/20100812111051/http://www.wizards.com/dnd/Globals/Styles/~/dnd/globals/images/h_accordion_toggle.jpg) no-repeat top left #a9d06a;
+			color: #ffffff;
+			text-decoration: none;
+			outline: none;
+			border-right: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+		
+		.horizontal_accordion_toggle_active {
+			background: url(/web/20100812111051/http://www.wizards.com/dnd/Globals/Styles/~/dnd/globals/images/h_accordion_toggle_active.jpg) no-repeat top left #e0542f;
+			border-right: 1px solid #f68263;
+		}
+		
+		.horizontal_accordion_content {
+			height: 100px; 
+			float: left; 
+			
+			overflow: hidden;
+			background-color: #ffffff;
+			color: #444444;
+		}
+			
+			.horizontal_accordion_content p {
+				width: 450px;
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+					
+
+    #horizontal_container {
+      margin: 20px auto 20px auto;
+      width: 680px;   
+      height: 100px;    
+    }
+    
+    #vertical_nested_container {
+      margin: 20px auto 20px auto;
+      width: 620px;
+    }
+*/
+
+.navContainerTest
+{
+    width: 296px;  
+ 
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.navContainerHead
+{
+    margin-left: 5px;
+}
+
+.navContainerBody
+{
+    font-size: .90em;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

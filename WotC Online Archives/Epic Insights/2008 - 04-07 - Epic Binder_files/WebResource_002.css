@@ -1,0 +1,158 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:10:49 Aug 12, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:13:56 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.GlobalSmartSearchBox {
+	position:absolute;
+	width:263px;
+	min-height:100px;
+	z-index:10001;
+	right:-15px;
+	top:22px;
+	display:none;
+	text-align:left;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchBoxTopLeft {
+	background-color:Transparent;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchBoxTop {
+	border-top:1px solid #aaaaaa;
+	border-right:1px solid #aaaaaa;
+	background-color:#fff;
+	margin-left:9px;
+}
+
+.GlobalSmartSearchBox .GlobalSearchLabel {
+	background-color:#cacaca;
+	color:#434343;
+	font-size:11pt;
+	padding:2px 0px 2px 5px;
+	font-family:Arial;
+	font-weight:bold;
+	min-height:20px;
+}
+
+.GlobalSmartSearchBox .GlobalSearchLabel .GlobalSearchInnerText {
+	float:left;
+	width:165px;
+}
+
+.GlobalSmartSearchBox .GlobalSearchLabel .GlobalSearchInnerLink {
+	clear:right;
+	font-size:7pt;
+	line-height:20px;
+}
+
+.GlobalSmartSearchBox .GlobalSearchLabel .GlobalSearchInnerLink a:visited,
+.GlobalSmartSearchBox .GlobalSearchLabel .GlobalSearchInnerLink a {
+	color:Blue;
+	text-decoration:none;
+}
+
+.GlobalSmartSearchBox .GlobalSearchLabel span a:hover {
+	text-decoration:underline;
+}
+
+.GlobalSmartSearchBox .GlobalSearchLoading {
+	padding: 5px 5px 5px 35px;
+	height:20px;
+	text-decoration:none;
+	color:#434343;
+	font-size:9pt;
+	font-weight:bold;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchItem {
+	display:block;
+	padding: 5px;
+	text-decoration:none;
+	color:#000;
+	font-size:8pt;
+	line-height:1.2em;
+	clear:both;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchItem.Selected img,
+.GlobalSmartSearchBox .GlobalSmartSearchItem img {
+	float:left;
+	padding:2px;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchItem.Selected {
+	background-color:#dfd3ff;
+	text-decoration:none;
+	color:#000;
+	font-size:8pt;
+	line-height:1.2em;
+	display:block;
+	padding: 5px;
+}
+
+.GlobalSmartSearchBox a.GlobalSmartSearchItem:hover {
+	background-color:#dfd3ff;
+	text-decoration:none;
+	color:#000;
+	font-size:8pt;
+	line-height:1.2em;
+	display:block;
+	padding: 5px;
+}
+
+.GlobalSmartSearchBox .GlobalSearchItem img {
+	float:left;
+	padding-top:5px;
+	padding-right:3px;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchBoxBottomLeft {
+	padding-top:9px;
+}
+
+.GlobalSmartSearchBox .GlobalSmartSearchBoxBottom {
+	margin-top:-9px;
+	margin-left:9px;
+}
+
+.globalSearchControl {
+	width:240px;
+	height:21px;
+}
+
+.globalSearchControl .globalSearchControlTextBox {
+    width:160px;
+    height:20px;
+    float:left;
+}
+
+.globalSearchControl .globalSearchControlTextBox input {
+	background-color:Transparent;
+	width:160px;
+	height:20px;
+	border:none;
+	font-size:8pt;
+	color: #666666;
+}
+
+.globalSearchControl .globalSearchControlSubmitButton {
+	float:left;
+	width:65px;
+	height:20px;
+	margin-left:4px;
+}
+
+.globalSearchControl .globalSearchControlSubmitButton input {
+    background-color:Transparent;
+    border:none;
+}
+

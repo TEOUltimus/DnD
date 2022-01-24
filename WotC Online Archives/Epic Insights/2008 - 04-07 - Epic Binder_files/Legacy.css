@@ -1,0 +1,424 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 18:45:45 Aug 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:13:56 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.red { color: #CC0000; }
+.super {font-size: 5pt; vertical-align: super;}
+
+.pollchart {font-size: 11px; color: #000000; font-weight:bold; font-family : arial, helvetica, sans serif; text-decoration: none}
+A.pollchart:hover {font-size: 11px; color: #CC0000; font-weight:bold; font-family : arial, helvetica, sans serif; text-decoration: none}
+
+.pollchart2 {font-size: 11px; color: #CC0000; font-weight:bold; font-family : arial, helvetica, sans serif; text-decoration: none}
+A.pollchart2:hover {font-size: 11px; color: #000000; font-weight:bold; font-family : arial, helvetica, sans serif; text-decoration: none}
+
+
+.h1 {color: #000000;font-size:23px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h2 {color: #000000;font-size:19px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h3 {color: #000000;font-size:15px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h4 {color: #000000;font-size:12px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h5 {color: #000000;font-size:10px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h6 {color: #000000;font-size:9px;font-weight:bold;font-family : arial, helvetica, sans serif}
+
+.h1red {color: #CC0000;font-size:23px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h2red {color: #CC0000;font-size:19px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h3red {color: #CC0000;font-size:15px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h4red {color: #CC0000;font-size:12px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h5red {color: #CC0000;font-size:10px;font-weight:bold;font-family : arial, helvetica, sans serif}
+.h6red {color: #CC0000;font-size:9px;font-weight:bold;font-family : arial, helvetica, sans serif}
+
+.size0 {color: #000000;font-size:9px;font-family : arial, helvetica, sans serif}
+.size1 {color: #000000;font-size:10px;font-family : arial, helvetica, sans serif}
+.size1a {color: #000000;font-size:11px;font-family : arial, helvetica, sans serif}
+.size2 {color: #000000;font-size:12px;font-family : arial, helvetica, sans serif}
+.size2a {color: #000000;font-size:13px;font-family : arial, helvetica, sans serif}
+.size2b {color: #000000;font-size:14px;font-family : arial, helvetica, sans serif}
+.size3 {color: #000000;font-size:15px;font-family : arial, helvetica, sans serif}
+.size4 {color: #000000;font-size:19px;font-family : arial, helvetica, sans serif}
+.size5 {color: #000000;font-size:23px;font-family : arial, helvetica, sans serif}
+.size6 {color: #000000;font-size:30px;font-family : arial, helvetica, sans serif}
+.size7 {color: #000000;font-size:42px;font-family : arial, helvetica, sans serif}
+
+.size0red {color: #CC0000;font-size:9px;font-family : arial, helvetica, sans serif}
+.size1red {color: #CC0000;font-size:10px;font-family : arial, helvetica, sans serif}
+.size2red {color: #CC0000;font-size:12px;font-family : arial, helvetica, sans serif}
+.size3red {color: #CC0000;font-size:15px;font-family : arial, helvetica, sans serif}
+.size35red {color: #CC0000;font-size:17px;font-family : arial, helvetica, sans serif}
+.size4red {color: #CC0000;font-size:19px;font-family : arial, helvetica, sans serif}
+.size5red {color: #CC0000;font-size:23px;font-family : arial, helvetica, sans serif}
+.size6red {color: #CC0000;font-size:30px;font-family : arial, helvetica, sans serif}
+.size7red {color: #CC0000;font-size:42px;font-family : arial, helvetica, sans serif}
+
+.size1w {color: #ffffff;font-size:10px;font-family : arial, helvetica, sans serif}
+.size2w {color: #ffffff;font-size:12px;font-family : arial, helvetica, sans serif}
+.size3y {color: #ffff84;font-size:15px;font-family : arial, helvetica, sans serif}
+
+A.size1w:hover  {color: #ff6666}
+A.size2w:hover  {color: #ff6666}
+A.size3y:hover  {color: #ff6666}
+
+.size1red1 {font-size: 10px; color: #df0000; font-family : arial, helvetica, sans serif; text-decoration: none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIV.dmwrap {
+	width: 100%;
+	max-width: 570px;
+}
+
+DIV.dmdark {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:2px;
+	padding-bottom:2px; 		
+	background-color: #461c2b;
+	min-height: 14px;		
+}
+
+DIV.dmheadleft {
+	float: left; 	
+	align: left;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+DIV.dmheadright {
+	float: right; 	
+	align: right;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+DIV.dmsubleft {
+	float: left; 	
+	align: left;
+	color: #ffffff;
+}
+
+DIV.dmsubright {
+	float: right; 	
+	align: right;
+	color: #ffffff;
+}
+
+DIV.dmwhite {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:1px;
+	padding-bottom:1px; 		
+	background-color: #ffffff	
+}
+
+DIV.dmindent {
+	padding-left:20px; 	
+}
+
+DIV.aaindent {
+	padding-left:10px; 	
+}
+
+DIV.dmfade {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 		
+	padding-top:1px;
+	padding-bottom:1px; 		
+    background-color: #e6e4d0;  /* the background          */
+    filter:alpha(opacity=100);   /* Internet Explorer       */
+    -moz-opacity:1.0;           /* Mozilla 1.6 and below   */
+    opacity: 1.0;               /* newer Mozilla and CSS-3 */
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#e6e4d0', EndColorStr='#ffffff');
+}
+
+
+
+
+
+
+DIV.xxfade {
+	padding-left:5px; 
+	padding-right:5px; 		
+	padding-top:2px;
+	padding-bottom:2px; 		
+    background-color: #e6e4d0;  /* the background          */
+    filter:alpha(opacity=100);   /* Internet Explorer       */
+    -moz-opacity:1.0;           /* Mozilla 1.6 and below   */
+    opacity: 1.0;               /* newer Mozilla and CSS-3 */
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e6e4d0', EndColorStr='#ffffff');
+	max-width: 570px;
+}
+
+
+DIV.yyfade {
+	border-top: 3px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-color: #b0b0b0; 
+	border-style: double;	
+	padding-left:5px; 
+	padding-right:5px; 		
+	padding-top:2px;
+	padding-bottom:2px; 		
+    background-color: #e6e4d0;  /* the background          */
+    filter:alpha(opacity=100);   /* Internet Explorer       */
+    -moz-opacity:1.0;           /* Mozilla 1.6 and below   */
+    opacity: 1.0;               /* newer Mozilla and CSS-3 */
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e6e4d0', EndColorStr='#ffffff');
+	max-width: 570px;
+}
+
+DIV.zzfade {
+	padding-left:5px; 
+	padding-right:5px; 		
+	padding-top:2px;
+	padding-bottom:2px; 		
+    background-color: #e6e4d0;  /* the background          */
+    filter:alpha(opacity=100);   /* Internet Explorer       */
+    -moz-opacity:1.0;           /* Mozilla 1.6 and below   */
+    opacity: 1.0;               /* newer Mozilla and CSS-3 */
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#e6e4d0', EndColorStr='#ffffff');
+	max-width: 570px;
+}
+
+
+
+
+
+
+DIV.greenpower {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:2px;
+	padding-bottom:2px; 				
+	background-color: #598d60;
+	min-height: 14px;
+}
+
+DIV.redpower {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:2px;
+	padding-bottom:2px; 				
+	background-color: #80152e;
+	min-height: 14px;
+}
+
+DIV.greypower {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:2px;
+	padding-bottom:2px; 				
+	background-color: #3d4040;
+	min-height: 14px;
+}
+
+DIV.orangepower {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:2px;
+	padding-bottom:2px; 				
+	background-color: #cd8e27;
+	min-height: 14px;
+}
+
+
+
+
+
+DIV.mbwrap {
+	width: 100%;
+	max-width: 570px;
+}
+
+DIV.ggdark {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:2px;
+	padding-bottom:2px; 				
+	background-color: #44502b;
+	min-height: 14px;
+}
+
+DIV.gglt {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 		
+	padding-top:1px;
+	padding-bottom:1px; 		
+	background-color: #e6e4d0;	
+	min-height: 14px;
+}
+
+DIV.ggmed {
+	width: 100%;
+	padding-left:5px; 
+	padding-right:5px; 		
+	padding-top:1px;
+	padding-bottom:1px; 			
+	background-color: #c6c6ae;
+	min-height: 14px;	
+}
+
+
+DIV.ggindent {
+	padding-left:20px; 	
+}
+
+
+
+DIV.mbheadleft {
+	float: left; 	
+	align: left;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+DIV.mbheadright {
+	float: right; 	
+	align: right;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+DIV.mbsubleft {
+	float: left; 	
+	align: left;
+	color: #ffffff;
+}
+
+DIV.mbsubright {
+	float: right; 	
+	align: right;
+	color: #ffffff;
+}
+
+DIV.mbalign {
+	padding-right:20px; 	
+	float: left; 	
+}
+
+DIV.mblanguage {
+}
+
+DIV.mbskills {
+	width: 100%;
+}
+
+DIV.mbstat {
+	width: 95px;
+	float: left; 		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dmtable {
+	border: 0px solid #ffffff;
+	border-collapse: collapse;
+}
+
+#dmtable thead tr { 
+	background: #461c2b;
+	color: #ffffff;
+	font-size: 12px;	
+}
+
+#dmtable tbody tr td {
+	padding-left:2px; 
+	padding-right:2px; 		
+	padding-top:1px;
+	padding-bottom:1px; 
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	border-color: #ffffff; 
+	border-style: solid;	
+}
+
+.odd { 
+	padding-left:2px; 
+	padding-right:2px; 		
+	padding-top:1px;
+	padding-bottom:1px; 			
+	background-color: #c6c6ae;
+	min-height: 14px;	
+}
+.even { 
+	padding-left:2px; 
+	padding-right:2px; 		
+	padding-top:1px;
+	padding-bottom:1px; 			
+	background-color: #e6e4d0;;
+	min-height: 14px;	
+ }
+
+
+
+
+
+#phtable {
+	border: 0px solid #ffffff;
+	border-collapse: collapse;
+}
+
+#phtable thead tr { 
+	background: #15334a;
+	color: #ffffff;
+	font-size: 12px;	
+}
+
+#phtable tbody tr td {
+	padding-left:2px; 
+	padding-right:2px; 		
+	padding-top:1px;
+	padding-bottom:1px; 
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	border-color: #ffffff; 
+	border-style: solid;	
+}
+
+ 

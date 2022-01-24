@@ -1,0 +1,338 @@
+body {
+    background:url('/img/bg.png') center top repeat-x #e1f446;      
+    margin:0px 0px 20px 0px;
+    font-family:"Trebuchet MS";
+    font-size:11px;
+}
+
+a
+{
+    color:#339999;
+    font-size:12px;
+}
+
+#container-header
+{
+    background: url('/img/bg-conent-header.png') center 159px no-repeat;
+}
+#container-bg
+{
+                
+    background:url('/img/bg-page.png') center top repeat-y;        
+   
+}
+
+#container-bg-top {
+        
+    background:url('/img/bg-page-top.png') center 201px no-repeat;
+        
+}
+
+.containerTopPL {
+
+    background:url('/img/top.jpg') center top no-repeat;
+
+}
+
+.containerTopES {
+
+    background:url('/img/top_es.jpg') center top no-repeat;
+
+}
+
+.containerTopIT {
+
+    background:url('/img/top_it.jpg') center top no-repeat;
+
+}
+
+.containerTopPT {
+
+    background:url('/img/top_pt.jpg') center top no-repeat;
+
+}
+
+#container-bottom {
+
+    height:30px;
+    background:url('/img/bg-page-bottom.png') center bottom no-repeat;
+    margin-bottom:20px;
+}
+
+
+.filename
+{
+    padding-top:159px;
+    padding-left:50px;
+    width:994px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:16pt;
+    color:#8b8b8b;
+    font-weight:bold;
+    
+    text-align:left;
+}
+.filesize
+{
+    color:#ababab;
+    font-size:8pt;
+}
+a.downloadFile  
+{
+    background: url('/img/download-arrow.png') left top no-repeat;
+    padding-left: 24px;
+    color:#339999;
+    float:right;
+    margin-right:42px;
+    font-size:13pt;
+    text-decoration: none;
+    height: 25px;
+}
+.docs
+{
+    width:950px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:950px;
+    padding:20px 0px 20px 0px;
+    text-align:left;
+    min-height:600px;
+}
+.docs img
+{
+    max-width:950px;
+}
+.css-gen1
+{
+    max-width:950px !important;
+}
+.menuHeader
+{
+  background: url('/img/bg-menu-header.png') center top no-repeat;
+  width:792px;
+  height:32px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.menuFirst
+{
+  width:160px;
+   height:200px;
+   padding-left:50px;
+  background: url('/img/bg-menu-separator.png') right bottom no-repeat;
+  float:left;
+  text-align:center;
+}
+.menuSecond
+{
+  width:430px;
+  height:200px;
+  background: url('/img/bg-menu-separator.png') right bottom no-repeat;
+  float:left;
+  padding-left:10px;
+  padding-right:10px;
+}
+.menuThird
+{
+   float:left;
+   width:230px;
+  height:200px;
+  padding-left:20px;
+  padding-right:20px;
+}
+a.anotherFileLink
+{
+  color:#339999;
+  text-decoration:none;
+  font-size:10pt;
+  font-weight:bold;
+}
+a.anotherFileLink:hover
+{
+    text-decoration:underline;
+}
+a.nickname
+{
+    color:#339999;
+    font-size:12pt;
+    text-decoration:none;
+}
+a.anotherFolderLink
+{
+    background: url('/img/folder_icon.png') left center no-repeat;
+    padding-left:25px;
+    line-height:20px;
+    font-size:10pt;
+    color:#524f42;
+}
+a.anotherFolderLink:hover
+{
+    color:#339999;
+}
+h3
+{
+  color:#8b8b8b;
+  font-size:13pt;
+  text-align:center;
+   
+}
+.lista
+{
+    list-style:none;
+    padding-left:0px;
+    line-height:22px;
+}
+
+.PhotoManiac {
+    background:url(/img/maniac_profile_bg.png) left top no-repeat;
+    width:85px;
+    height:85px;
+    display:block;    
+}
+
+.PhotoSpecial {
+    background:url(/img/special_profile_bg2.png) left top no-repeat;
+    width:85px;
+    height:85px;
+    display:block;
+}
+
+a.PhotoManiac:hover,
+a.PhotoSpecial:hover,
+a.PhotoExplorer:hover, 
+a.PhotoLink:hover,
+a.PhotoEdu:hover
+{
+    background-position:right top;
+}
+
+.PhotoExplorer {
+    background:url(/img/explorer_profile_bg.png) left top no-repeat;
+    width:85px;
+    height:85px;
+    display:block;    
+}
+
+.PhotoLink, a.PhotoEdu {
+    background:url(/img/edu_profile_bg.png) left top no-repeat;
+    width:85px;
+    height:85px;
+    display:block;
+}
+.errorFrame
+{
+    width:100%;
+    text-align:center;
+    font-size:25px;
+    color:#339999;
+    font-weight:bold;
+    margin-top:150px;
+}
+.errorMsg
+{
+    font-size:30px;
+    
+}
+.TopBarChomikLink {
+  
+display:block;
+height:120px;
+margin-left:451px;
+
+margin-top:-148px;
+position:absolute;
+width:230px;
+z-index:999;
+}
+
+.footer
+{
+    margin: auto;
+    width:994px;
+}
+
+.footerLinks
+{    
+    margin:0px 0px 0px 0px;
+    padding:3px 0px 20px 40px;
+    width:650px;
+    float:left;
+    text-align:center;
+}
+
+.footerLinks li
+{
+    display:inline;
+    line-height:20px;
+    padding:2px 5px 2px 5px;
+    font-size:11px;
+    border-right:1px dotted #A09A83;
+}
+
+.footerLinks li a.footerLink
+{
+    color: #524F42;
+    text-decoration:none;
+    font-size: 12px;
+}
+
+.footerLinks li a.footerLink:visited
+{
+    color: #524F42;
+    text-decoration:none;
+}
+
+.footerLinks li a.footerLink:hover
+{
+    color: #339999;
+    text-decoration:none;
+}
+
+.footerCopyrights
+{
+    padding-top:5px;    
+    font-size: 10px;
+    float:right;
+    margin: 0px 10px 0px 0px;
+    width:170px;    
+    float:right;
+}
+
+.marked  
+{
+    color:#339999 !important;
+}
+
+
+a.abuse 
+{
+    color: #524F42;
+    font-size: 11px;
+    text-decoration: none;
+    padding-right: 23px;
+    background: url(http://x2.static-chomikuj.pl/res/142523d164.gif) right top no-repeat;
+    border-top: 2px dotted #E5DDBB;
+    padding-left: 15px;
+    height: 18px;
+    float: right;
+}
+
+.abuse:hover 
+{
+    color: #AB530B;
+}
+
+.abuseDiv 
+{
+    background:url('/img/bg-page.png') center top repeat-y; 
+    width:994px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    text-align: right;
+    padding-right: 50px;
+    border: 0px;
+}

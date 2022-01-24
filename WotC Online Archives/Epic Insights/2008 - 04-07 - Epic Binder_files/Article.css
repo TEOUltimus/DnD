@@ -1,0 +1,374 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 18:45:44 Aug 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:13:57 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.Wrapper {
+	background: transparent url('/web/20100827184544/http://www.wizards.com/dnd/images/4new/article_back.jpg') top center no-repeat;
+}
+
+.ModuleContent.ArticleFooterWrapper
+{
+    position: relative;
+	margin-top: 5px;
+	margin-left: 5px; 
+	margin-bottom: 5px;
+	overflow: hidden;
+    max-width: 100% -10;
+	background-color: #ffffff;
+}
+
+
+.ModuleContent.ArticleContentWrapper {
+	font-size:.75em;
+}
+
+.ArticleFooter {
+	height:125px;
+	width: 677px;
+	margin:5px 5px 5px 5px;
+	background-color: #e6e3e3;
+}
+
+.ArticleFooterLeft {
+	float:left;
+	margin:5px 0px 0px 5px;
+	width:495px;
+	height:115px;
+	overflow: hidden;
+}
+
+.ArticleFooterLeft a {
+	
+	text-decoration:none;
+}
+
+.ArticleFooterLeft a:hover {
+	text-decoration:underline;
+}
+
+.ArticleFooterLeft .ArticleFooterDiscuss {
+	display:block;
+	color:#000;
+	font-weight:bold;
+	font-size:1em;
+	margin: 0px 0px 5px 0px;
+	background: url('/web/20100827184544/http://www.wizards.com/DnD/Globals/Images/Icons/Discuss.png') no-repeat left center;
+	line-height:25px;
+	height:25px;
+	padding:0px 0px 0px 35px;
+
+}
+
+.ArticleFooterLeft .ArticleFooterRelatedArticles {
+	font-size: .9em;
+}
+
+.ArticleFooterLeft .ArticleFooterRelatedArticles .RelatedArticlesLinks {
+	margin: 0px 0px 0px 0px;
+	line-height: 12px;
+	font-size:.95em;
+}
+
+.ArticleFooterRight {
+	float:right;
+	border-left:1px solid #535353;
+	width:160px;
+	height:115px;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 0px 0px;
+}
+
+.ArticleFooterRight .AddThis {
+	text-align:center;
+}
+
+.ArticleFooterRight a,
+.ArticleFooterRelatedArticles a {
+	font-weight:normal;
+	color:#000;
+	display:block;
+	margin-top:5px;
+	text-decoration:none;
+	font-size:.85em;
+	}
+
+.ArticleFooterRight a {
+	margin-top:5px;
+	font-weight:bold;
+}
+
+.ArticleFooterRight a:hover {
+	text-decoration:underline;
+}
+
+.ArticleFooterRight .ArticleFooterEmail {
+	background: url('/web/20100827184544/http://www.wizards.com/DnD/Globals/Images/Icons/Email.png') no-repeat left center;
+	line-height:25px;
+	height:25px;
+	padding:0px 0px 0px 35px;
+	}
+
+.ArticleFooterRight .ArticleFooterPrint {
+	background: url('/web/20100827184544/http://www.wizards.com/DnD/Globals/Images/Icons/Print.png') no-repeat left center;
+	line-height:25px;
+	height:25px;
+	padding:0px 0px 0px 35px;
+}
+
+.ArticleFooterRight .ArticleFooterDownload {
+	background: url('/web/20100827184544/http://www.wizards.com/DnD/Globals/Images/Icons/Download.png') no-repeat left center;
+	line-height:25px;
+	min-height:25px;
+	padding:0px 0px 0px 35px;
+}
+
+.ArticleNotFoundContent {
+	height:875px;
+	background: url('/web/20100827184544/http://www.wizards.com/DnD/Globals/Images/ErrorScreen.jpg') no-repeat;
+	background-position: center 150px;
+}
+
+.ArticleNotFoundContent a {
+	color:Blue;
+	text-decoration:none;
+}
+
+.ArticleNotFoundContent a:hover {
+	text-decoration:underline;
+}
+
+.SearchArea {
+	margin:0 auto;
+	position:relative;
+}
+
+.SearchArea .globalSearchControl {
+	float:left;
+	margin:0px 0px 0px 10px;
+}
+
+.SearchArea .globalSearchControl input {
+	font-size:9pt;
+}
+
+.ArticleNotFoundImage {
+	margin:0 auto;
+	width:650px;
+}
+
+/* Global Smart Search Styles Custom to the Article Not Found Page */
+.SearchArea .GlobalSmartSearchBox {
+    left: 305px;
+    top:21px;
+    font-family: Arial;
+    z-index:1000;
+}
+
+.DnDiUpsell 
+{
+	clear: both;
+	height: 200px;	
+	width: 665px;
+	border: 1px solid #999999;
+	background-color: #e5e3e3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.DnDiUpsellWrapper 
+{
+	position: relative;
+	float: left;
+	width: 655px;
+	margin: 5px;
+}
+
+
+
+.DnDiUpsellHeader {
+	border-bottom: 1px solid #999999;
+	margin-bottom: 3px;
+}
+
+.DnDiUpsellText {
+	font-size:1em;
+	line-height: 22px;
+}
+
+.DnDiUpsellTable {
+	font-size: 1em;
+	border: 0px;
+}
+
+.DnDiUpsellTable li {
+	margin-left: 12px;
+}
+
+.DnDiUpsell a img {
+	border:none;
+}
+
+.DnDiUpsell h4 {
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #990000; 
+	margin:0px;
+	padding:0px;
+}
+
+.DnDiUpsellButton {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+.DnDiUpsellShort 
+{
+	clear: both;
+	height: 105px;	
+	width: 665px;
+	border: 1px solid #999999;
+	background-color: #e5e3e3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.DnDiUpsellWrapperShort 
+{
+	position: relative;
+	float: left;
+	width: 655px;
+	margin: 5px;
+}
+
+
+
+.DnDiUpsellHeaderShort  {
+	border-bottom: 1px solid #999999;
+	margin-bottom: 3px;
+}
+
+.DnDiUpsellTextShort  {
+	font-size:1em;
+	line-height: 22px;
+}
+
+.DnDiUpsellTableShort  {
+	font-size: 1em;
+	border: 0px;
+}
+
+.DnDiUpsellTableShort  li {
+	margin-left: 12px;
+}
+
+.DnDiUpsellShort  a img {
+	border:none;
+}
+
+.DnDiUpsellShort  h4 {
+	font-family:'arial',helvetica,sans-serif; 
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #990000; 
+	margin:0px;
+	padding:0px;
+}
+
+.DnDiUpsellButtonShort  {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+<div class="ArticleSectionBox">
+	<div class="ArticleSectionHeadline">Content Headline Test</div>
+	<div class="ArticleSectionLine"><!-- line --></div>
+	<div class="ArticleSectionBody"><!-- content -->content goes here content goes here .
+	</div>
+</div>
+*/
+
+.ArticleSectionBox
+{	
+ 	position:relative;
+ 	float: left;
+	width: 677px;
+	margin-top: 15px;
+	overflow:hidden;
+}
+
+.ArticleSectionHeadline
+{
+	font-family:'arial',helvetica,sans-serif; 
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #990000; 
+}
+
+.ArticleSectionLine
+{
+    position: relative;
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 1px;
+    width: 100%;	
+	border-bottom: 1px solid #ededed;
+	background-color: #cccccc;
+	overflow: hidden;
+}
+
+.ArticleSectionBody
+{
+	color: #000000;
+}
+
+ 
+.fooltable
+{
+	border: 1px solid #aaaaaa;	
+	background-color: #dddddd;
+}
+
+.fooltable tr td
+{
+	text-align: center;
+	border: 1px solid #aaaaaa;	
+	width: 30px;
+	background-color: #ffffff;	
+}
+
+.fooltable tr td.foolempty
+{
+	background-color: #dddddd;	
+	border: 1px solid #dddddd;		
+} 
+
+
+
+

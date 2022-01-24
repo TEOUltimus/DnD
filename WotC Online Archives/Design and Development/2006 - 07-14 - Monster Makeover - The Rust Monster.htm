@@ -1,0 +1,719 @@
+<html><head><script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/analytics.js"></script>
+<link type="text/css" rel="stylesheet" href="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/banner-styles.css">
+
+
+
+<script>var popinvalid='no'</script><script type="text/javascript">var nickname=''; var ent='no'</script> 
+ 
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" language="JavaScript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/PopupSurvey.js"></script><script type="text/javascript" language="JavaScript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/newsince.js"></script><script type="text/javascript" language="JavaScript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/minipop.htm"></script><title>Design &amp; Development: Monster Makeover: The Rust Monster</title><script type="text/javascript" language="JavaScript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/menu_NN6.js"></script><script type="text/javascript" language="JavaScript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/basic.js"></script><link rel="STYLESHEET" type="text/css" href="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/default.css">
+<link rel="STYLESHEET" type="text/css" href="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/dndnew2004.css">
+<meta name="description" content="Design &amp; Development: Monster Makeover: The Rust Monster">
+<meta name="keywords" content="Decker, David Noonan, design, development, mike mearls, rust monster, redesign, monster makeover">
+<meta name="target" content=",Mike Mearls">
+</head>
+<body leftmargin="0" topmargin="0" bgcolor="#ffffff" marginheight="0" marginwidth="0"><div id="wm-ipp" class="__wb_banner_div" style="display: none; position: relative; padding: 0px 5px; min-height: 70px; min-width: 800px;" lang="en">
+
+
+<div id="wm-ipp-inside" class="__wb_banner_div" style="position:fixed;padding:0!important;margin:0!important;width:97%;min-width:780px;border:5px solid #000;border-top:none;background-image:url(/static/images/toolbar/wm_tb_bk_trns.png);text-align:center;-moz-box-shadow:1px 1px 3px #333;-webkit-box-shadow:1px 1px 3px #333;box-shadow:1px 1px 3px #333;font-size:11px!important;font-family:'Lucida Grande','Arial',sans-serif!important;">
+   <table style="border-collapse:collapse;margin:0;padding:0;width:100%;"><tbody><tr>
+   <td style="padding:10px;vertical-align:top;min-width:110px;">
+   <a href="http://web.archive.org/web/" title="Wayback Machine home page" style="background-color:transparent;border:none;"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/wayback-toolbar-logo.png" alt="Wayback Machine" border="0" height="39" width="110"></a>
+   </td>
+   <td style="padding:0!important;text-align:center;vertical-align:top;width:100%;">
+
+       <table style="border-collapse:collapse;margin:0 auto;padding:0;width:570px;"><tbody><tr>
+       <td style="padding:3px 0;" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb" style="margin:0!important;padding:0!important;"><input name="url" id="wmtbURL" value="http://www.wizards.com/default.asp?x=dnd/dd/20060714a" style="width:400px;font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;" onfocus="javascript:this.focus();this.select();" type="text"><input name="type" value="replay" type="hidden"><input name="date" value="20130531094127" type="hidden"><input value="Go" style="font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;margin-left:5px;width: inherit !important" type="submit"><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td style="vertical-align:bottom;padding:5px 0 0 0!important;" rowspan="2">
+           <table style="border-collapse:collapse;width:110px;color:#99a;font-family:'Helvetica','Lucida Grande','Arial',sans-serif;"><tbody>
+			
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr style="width:110px;height:16px;font-size:10px!important;">
+           	<td style="padding-right:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20121105215647/http://www.wizards.com/default.asp?x=dnd/dd/20060714a" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="5 Nov 2012"><strong>NOV</strong></a>
+		                
+               </td>
+               <td id="displayMonthEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight:bold;text-transform:uppercase;width:34px;height:15px;padding-top:1px;text-align:center;" title="You are here: 9:41:27 May 31, 2013">MAY</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20130924091948/http://www.wizards.com/default.asp?x=dnd/dd/20060714a" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="24 Sep 2013"><strong>SEP</strong></a>
+		                
+               </td>
+           </tr>
+
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr>
+               <td style="padding-right:9px;white-space:nowrap;overflow:visible;text-align:right!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20121105215647/http://www.wizards.com/default.asp?x=dnd/dd/20060714a" title="21:56:47 Nov 5, 2012" style="background-color:transparent;border:none;"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/wm_tb_prv_on.png" alt="Previous capture" border="0" height="16" width="14"></a>
+		                
+               </td>
+               <td id="displayDayEl" style="background:#000;color:#ff0;width:34px;height:24px;padding:2px 0 0 0;text-align:center;font-size:24px;font-weight: bold;" title="You are here: 9:41:27 May 31, 2013">31</td>
+				<td style="padding-left:9px;white-space:nowrap;overflow:visible;text-align:left!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20130924091948/http://www.wizards.com/default.asp?x=dnd/dd/20060714a" title="9:19:48 Sep 24, 2013" style="background-color:transparent;border:none;"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/wm_tb_nxt_on.png" alt="Next capture" border="0" height="16" width="14"></a>
+		                
+			    </td>
+           </tr>
+
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr style="width:110px;height:13px;font-size:9px!important;">
+				<td style="padding-right:9px;font-size:11px!important;font-weight: bold;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20090603082557/https://www.wizards.com/default.asp?x=dnd/dd/20060714a" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="3 Jun 2009"><strong>2009</strong></a>
+		                
+               </td>
+               <td id="displayYearEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight: bold;padding-top:1px;width:34px;height:13px;text-align:center;" title="You are here: 9:41:27 May 31, 2013">2013</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight: bold;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+                       2014
+                       
+				</td>
+           </tr>
+           </tbody></table>
+       </td>
+
+       </tr>
+       <tr>
+       <td style="vertical-align:middle;padding:0!important;">
+           <a href="http://web.archive.org/web/20130531094127*/http://www.wizards.com/default.asp?x=dnd/dd/20060714a" style="color:#33f;font-size:11px;font-weight:bold;background-color:transparent;border:none;" title="See a list of every capture for this URL"><strong>17 captures</strong></a>
+           <div class="__wb_banner_div" style="margin:0!important;padding:0!important;color:#666;font-size:9px;padding-top:2px!important;white-space:nowrap;" title="Timespan for captures of this URL">16 Jul 06 - 6 Jan 14</div>
+       </td>
+       <td style="padding:0!important;">
+       <a style="position:relative; white-space:nowrap; width:475px;height:27px;" href="" id="wm-graph-anchor">
+       <div class="__wb_banner_div" id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:475px;height:27px;background-color:#fff;cursor:pointer;border-right:1px solid #ccc;" title="Explore captures for this URL">
+			<img id="sparklineImgId" style="position:absolute; z-index:9012; top:0px; left:0px;" onmouseover="showTrackers('inline');" onmouseout="showTrackers('none');" onmousemove="trackMouseMove(event,this)" alt="sparklines" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/graph.png" border="0" height="27" width="475">
+			<img id="wbMouseTrackYearImg" style="display:none; position:absolute; z-index:9010;" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/transp-yellow-pixel.png" border="0" height="27" width="25">
+			<img id="wbMouseTrackMonthImg" style="display:none; position:absolute; z-index:9011; " src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/transp-red-pixel.png" border="0" height="27" width="2">
+       </div>
+		</a>
+
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td style="text-align:right;padding:5px;width:65px;font-size:11px!important;">
+       <a href="javascript:;" onclick="document.getElementById('wm-ipp').style.display='none';" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_close.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;margin-bottom:23px;background-color:transparent;border:none;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_help.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;background-color:transparent;border:none;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+
+</div>
+</div>
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app15.us.archive.org";}; </script>
+
+<script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/disclaim-element.js"></script>
+<script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/graph-calc.js"></script>
+<script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/jquery.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+var firstDate = 820454400000;
+var lastDate = 1420070399999;
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http:\/\/www.wizards.com\/default.asp?x=dnd\/dd\/20060714a";
+
+var curYear = -1;
+var curMonth = -1;
+var yearCount = 18;
+var firstYear = 1996;
+var imgWidth = 475;
+var yearImgWidth = 25;
+var monthImgWidth = 2;
+var trackerVal = "none";
+var displayDay = "31";
+var displayMonth = "May";
+var displayYear = "2013";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function showTrackers(val) {
+	if(val == trackerVal) {
+		return;
+	}
+	if(val == "inline") {
+		document.getElementById("displayYearEl").style.color = "#ec008c";
+		document.getElementById("displayMonthEl").style.color = "#ec008c";
+		document.getElementById("displayDayEl").style.color = "#ec008c";		
+	} else {
+		document.getElementById("displayYearEl").innerHTML = displayYear;
+		document.getElementById("displayYearEl").style.color = "#ff0";
+		document.getElementById("displayMonthEl").innerHTML = displayMonth;
+		document.getElementById("displayMonthEl").style.color = "#ff0";
+		document.getElementById("displayDayEl").innerHTML = displayDay;
+		document.getElementById("displayDayEl").style.color = "#ff0";
+	}
+   document.getElementById("wbMouseTrackYearImg").style.display = val;
+   document.getElementById("wbMouseTrackMonthImg").style.display = val;
+   trackerVal = val;
+}
+function getElementX2(obj) {
+	var thing = jQuery(obj);
+	if((thing == undefined) 
+			|| (typeof thing == "undefined") 
+			|| (typeof thing.offset == "undefined")) {
+		return getElementX(obj);
+	}
+	return Math.round(thing.offset().left);
+}
+function trackMouseMove(event,element) {
+
+   var eventX = getEventX(event);
+   var elementX = getElementX2(element);
+   var xOff = eventX - elementX;
+	if(xOff < 0) {
+		xOff = 0;
+	} else if(xOff > imgWidth) {
+		xOff = imgWidth;
+	}
+   var monthOff = xOff % yearImgWidth;
+
+   var year = Math.floor(xOff / yearImgWidth);
+	var yearStart = year * yearImgWidth;
+   var monthOfYear = Math.floor(monthOff / monthImgWidth);
+   if(monthOfYear > 11) {
+       monthOfYear = 11;
+   }
+   // 1 extra border pixel at the left edge of the year:
+   var month = (year * 12) + monthOfYear;
+   var day = 1;
+	if(monthOff % 2 == 1) {
+		day = 15;
+	}
+	var dateString = 
+		zeroPad(year + firstYear) + 
+		zeroPad(monthOfYear+1,2) +
+		zeroPad(day,2) + "000000";
+
+	var monthString = prettyMonths[monthOfYear];
+	document.getElementById("displayYearEl").innerHTML = year + 1996;
+	document.getElementById("displayMonthEl").innerHTML = monthString;
+	// looks too jarring when it changes..
+	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
+
+	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+	document.getElementById('wm-graph-anchor').href = url;
+
+   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
+   if(curYear != year) {
+       var yrOff = year * yearImgWidth;
+       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
+       curYear = year;
+   }
+   if(curMonth != month) {
+       var mtOff = year + (month * monthImgWidth) + 1;
+       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
+       curMonth = month;
+   }
+}
+//]]>
+</script>
+
+<style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style>
+
+<script type="text/javascript">
+ var wmDisclaimBanner = document.getElementById("wm-ipp");
+ if(wmDisclaimBanner != null) {
+   disclaimElement(wmDisclaimBanner);
+ }
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<div style="width: 910px; position: absolute; margin-left: -455px; left: 50%; top: 0px; z-index:1">
+<table cellpadding="0" cellspacing="0" align="center" border="0" width="910"><tbody><tr bgcolor="#000000"><td height="21"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/spacer37black.gif" alt="" border="0" height="21" width="3"></td></tr></tbody></table>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" border="0" width="910">
+<tbody><tr><td colspan="5"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/dnd"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/banner_dnd_top.jpg" border="0"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/banner_dnd_bottom.jpg" border="0"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/nav_dnd_spacer_1.jpg" border="0"></a></td></tr>
+<tr valign="top">
+<td valign="top" width="152"><table cellpadding="0" cellspacing="0" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/dnd35left.jpg" border="0" height="623" width="152"><tbody><tr><td valign="top">
+<table cellpadding="0" cellspacing="0" border="0" width="152"><tbody><tr><td align="center"><br><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/dnd/default.aspx"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/home.png" border="0"></a></td>
+</tr>
+<tr><td align="center"><br><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/archives"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/3_5DnD.png" border="0"></a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></td>
+<td width="10"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/spacer_1_1.gif" alt="" border="0" height="5" width="10"></td>
+<td valign="top">
+<table cellpadding="0" cellspacing="0" border="0" width="610">
+<tbody><tr><td class="breadcrumb">
+</td><td align="right"></td>
+</tr>
+<tr><td colspan="2"></td></tr>
+<tr><td colspan="2"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"><br><table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody><tr>
+<td width="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/head_dnd_1.jpg" height="20" width="4"></td>
+<td class="nboxhead" align="left" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/dnd_article_2.jpg" valign="middle"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/arch/dd" class="articlehead">Design &amp; Development</a></td><td class="nboxdate" align="right" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/dnd_article_3.jpg" valign="top" width="375">07/14/2006<img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"></td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" width="480">
+<tbody><tr>
+<td align="center" width="94"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/dd_feature_sm1.jpg" width="88"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="7" width="5"></td>
+<td valign="top">
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="10" width="10"><br><span class="size4red"><b>Monster Makeover</b></span><br><span class="size3"><b>The Rust Monster</b></span><br><span align="left" class="byline"><i>Mike Mearls</i></span></p>
+</td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" width="610">
+<tbody><tr>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="7" width="10"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/new_bar.jpg" height="2" width="590"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="7" width="10"></td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" align="center" border="0" width="590">
+<tbody><tr>
+<td valign="top" width="100%">
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdevcolumn1a.jpg" align="right" border="0">We're
+ hoping this column becomes your window into roleplaying design and 
+development—or at least the way we approach these things here at Wizards
+ of the Coast. We'll handle a wide range of topics in weeks to come, 
+from frank discussions about over- or underpowered material, to the 
+design goals of a certain supplement, to what we think are the next big 
+ideas for the <b>Dungeons &amp; Dragons</b> game. All of this comes bundled with a healthy look at the people and events that are roleplaying R&amp;D.</p>
+<p align="left"><i>The creature sports two long antenna on its head, one beneath each eye...</i></p>
+<hr>
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_rust1st.jpg" align="right" border="0">In many ways, the art of development is the art of translation. The process of producing material for <b>Dungeons &amp; Dragons</b>
+ is a conversation between the gamers and R&amp;D. Gamers tell us what 
+they want (directly or indirectly) and R&amp;D responds with new rules, 
+story elements, and other stuff that we hope answers these requests.</p>
+<p align="left">In this conversation, a developer listens to both sides 
+and, when necessary, shifts the material created by design to better 
+match what gamers want (or perhaps need to hear). In other words, a 
+designer creates what sounds cool and interesting, and a developer 
+translates that into something practical, easy to use, and balanced.</p>
+<p align="left">One of the hallmarks of development lies in its continuing evolution. <b>D&amp;D</b>
+ is a relatively simple system to learn. If you can add a few numbers to
+ a d20 roll, you can perform 90% of the math needed to play. The game’s 
+complexity lies in the interaction between all of the exceptions and 
+supplemental rules. A feat like Cleave, for example, is its own little 
+rule. If you do not use Cleave, you do not need to know how it works.</p>
+<p align="left">In contrast, a developer needs to understand how all of 
+the rules work together, and how new rules elements fit into the overall
+ game. In addition, a developer needs to have a good grasp of the game’s
+ story elements. A feat that allows a wizard to wear full plate might be
+ balanced in a purely mechanical analysis of Armor Class, but it changes
+ the world of <b>D&amp;D</b> in a way that runs counter to what people 
+want and expect. Merlin and Gandalf don’t run around in plate armor, so 
+neither should wizards and sorcerers (without substantial penalty).</p>
+<p align="left">As development understands more and more about how <b>D&amp;D</b> is working, we change our goals. <b>D&amp;D</b>
+ is a living rule set that, over time, changes to produce a more 
+interesting, fun, and playable game. Each year, we learn more about what
+ works, what doesn't work, and what new directions are worth exploring.</p>
+<p align="left">To help give you a better understanding of development 
+and show how our approach evolves over time, I'm going to take a classic
+ beastie from the <i>Monster Manual</i> and send it through the 
+development gauntlet. At the end of the process, we'll have a creature 
+that probably looks a lot different than the creature we started with. 
+As I work through the monster, I'll provide commentary on the changes 
+I've made, why I made them, and the goal of each one.</p>
+<table cellpadding="2" cellspacing="2" align="right" bgcolor="#999999" border="0" width="250"><tbody><tr><td>
+<div align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_rust.jpg" align="middle" border="0"></div>
+</td>
+</tr>
+<tr bgcolor="#E6E6E6"><td><b><i>Tangent Alert!</i>:</b> To find out more about the rust monster, check out this month's <a target="_blank" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/leaving.asp?url=http://paizo.com&amp;origin=dnd_dd_20060714a"><i>Dragon</i> Magazine</a>, #346. Inside, you'll find <i>The Ecology of the Rust Monster</i>, and several anecdotes of its appearance -- including Gary Gygax's Tales of Rust and Gloom.</td>
+</tr>
+</tbody></table>
+<p align="left">Keep in mind throughout this process that development is
+ usually a team process. It's important to have a diverse array of 
+opinions on what works in a monster, what it aims to do, and how to 
+develop it. Development is as much art as it is science, and it helps to
+ have more than one opinion when dealing with issues involving personal 
+taste, feel, and preferences—particularly when we’re reading the tea 
+leaves to figure out what you guys want!</p>
+<p class="size3" align="left"><b>Monster Makeover: The Rust Monster</b></p>
+<p align="left">The first critter I'm going to tackle is the "lovable" rust monster. According to gaming legend, the rust monster entered <b>D&amp;D</b>
+ annals when Gary Gygax found a cool looking plastic toy in the same 
+scale as the miniatures his gaming group used. Obviously, the plastic 
+critter needed stats. Thus, the rust monster was born.</p>
+<p align="left">The 1st edition <i>DMG</i> featured an amusing, one 
+panel cartoon of a terrified, fully armored fighter leaping into a 
+wizard's protective arms. The source of our doughty fighter's terror? An
+ approaching rust monster. To this day, the rust monster is a great 
+creature because as soon as one skitters around the corner, it elicits 
+an immediate, extreme reaction from the party. No one wants their 
+beloved magic sword and expensive armor turned into a pile of red dust! A
+ fight against a rust monster is invariably interesting (in the Chinese 
+proverb sense of the word) and memorable.</p>
+<div align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_rustdmg.jpg" align="middle" border="0"></div>
+<p align="left">Unfortunately, the rust monster's mechanics could use 
+some work. Within the context of a single encounter, they're a lot of 
+fun. But once your weapons and armor are rendered useless, the next 
+encounter becomes that much more difficult. If you’ve invested thousands
+ of gp into metal items, you better hope your DM is ready to hand over a
+ ton of extra treasure to make up for your losses. At the very least, he
+ needs to understand that the party's power level (especially for the 
+fighter-types) is now behind the curve.</p>
+<table cellpadding="2" cellspacing="2" align="center" bgcolor="#E6E6E6" border="0" width="550"><tbody><tr bgcolor="#E6E6E6"><td>
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_ogre.jpg" align="right" border="0"><b>Homebrew Design V. WotC Design</b></p>
+<p align="left">Development's understanding of the game tells us that a 
+monster who destroys your gear isn't fun. Simply put, it makes the next 
+encounter prohibitively more difficult. The rust monster requires a lot 
+more DM skill and a deeper understanding of the game than other 
+creatures in its CR range.</p>
+<p align="left">However, that doesn't mean it cannot have a place in 
+your game. A DM who understands how a rust monster works, or who builds 
+his story to account for it, can have a lot of fun with the critter as 
+written. If the PCs lose their weapons and armor, they might go into 
+debt to a shady merchant to get replacements. That merchant can then 
+play an important, interesting role in the campaign.</p>
+<p align="left">Development's responsibility is to create monsters that 
+work in a way that’s easy to handle. The rust monster is CR 3, but it 
+has a much bigger impact on the game than, say, a CR 3 ogre. We can't 
+realistically put both those creatures on a random CR 3 monster table. 
+Even worse, we don't want to send the message that monsters capable of 
+destroying a party's gear are common opponents.</p>
+<p align="left">Instead, it's likely best for the game to let individual
+ DMs create and use such effects as they need them in their campaigns. 
+We don't want to encourage such effects, but there's no reason why a DM 
+who knows what he's doing can't use them. In many ways, development 
+assumes that an individual DM is like a computer who heartlessly applies
+ the rules. This approach allows neophytes to trust the rules and 
+experienced DMs to bend, fold, and mutilate them from the foundation of a
+ workable, stable system.</p>
+</td>
+</tr>
+</tbody></table>
+<p align="left">Let's pretend that the rust monster is a brand new 
+monster, turned over to the development team from design. It might help 
+to open your <i>Monster Manual</i> to page 216 and follow along.</p>
+<p align="left">The first thing to check is the monster's basic stats. 
+As a CR 3 critter, its hit points and AC are about what I expect—both 
+are in the ballpark of an ogre, a good, touchstone CR 3 creature. 
+Unfortunately, the rust monster's attack and damage don't come close to 
+the ogre's offensive abilities. That attack includes the rust special 
+ability.</p>
+<p align="left">And that's where things start to go wrong. Here's the offending rules material, lifted straight from the SRD:</p>
+<blockquote><b>Rust (Ex):</b> A rust monster that makes a successful 
+touch attack with its antennae causes the target metal to corrode, 
+falling to pieces and becoming useless immediately. The touch can 
+destroy up to a 10-foot cube of metal instantly. Magic armor and 
+weapons, and other magic items made of metal, must succeed on a DC 17 
+Reflex save or be dissolved. The save DC is Constitution-based and 
+includes a +4 racial bonus.<br><br> A metal weapon that deals damage to a
+ rust monster corrodes immediately. Wooden, stone, and other nonmetallic
+ weapons are unaffected.</blockquote>
+<p align="left">Ugh! A rust monster is a great way to strip away the 
+party's metal gear. At CR 3, chances are it often faces fighter-types in
+ heavy armor who have relatively poor Reflex saves. A fighter without 
+armor is a sitting duck, and a party that faces one of these things ends
+ up either seriously outclassed for the rest of the adventure or forced 
+to return to town to buy more armor. Neither of those situations screams
+ epic, fantasy adventure. The rust monster carries a big sign that says,
+ "Stop adventuring or die!"</p>
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_rust2nd.jpg" align="right" border="0">One
+ of development's goals is to facilitate play. We want people to get in 
+multiple encounters each session, whether these are combat, roleplay, 
+puzzles, or whatever. The rust monster brings any prospect of a balanced
+ combat encounter to an end. The party might get lucky and kill it 
+before it can destroy the fighter or paladin's armor, or the DM might be
+ kind enough to include more armor in a treasure cache. If a monster 
+needs such special consideration, we're better off toning down the 
+ability. We could increase the CR, but the basic problem remains: This 
+ability brings the adventure to a halt regardless of the party's level.</p>
+<p align="left">On the other hand, the concept of a monster that 
+threatens metal items is pretty neat. It makes for an interesting fight,
+ as the fighter might end up watching as the mage whacks on the creature
+ with her staff. The rust monster is also a great helper beast for other
+ creatures. Orcs might drive rust monsters forward against their 
+enemies, ruining their foes' weapons and armor before moving to attack. 
+The captain of the guards might use a captive rust monster to convince 
+recalcitrant adventurers to hand over their weapons before they enter 
+the city.</p>
+<p align="left">The problem with the rust ability is that it is far too 
+punishing. With one hit, an armored character's AC drops by around 6 to 8
+ points for the rest of the adventure. If the party is short on cash, 
+the PCs are stuck with sub-optimal armor. Taking a bigger picture view 
+of things, how does this creature interact with warforged?</p>
+<table cellpadding="2" cellspacing="2" align="center" bgcolor="#E6E6E6" border="0" width="550"><tbody><tr bgcolor="#E6E6E6"><td>
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_warforged.jpg" align="right" border="0"><b><i>Design Notes</i>:</b> How do rust monsters affect warforged? Check out the <i><b>Eberron</b> Campaign Setting</i>, p. 23:<br><br>"The iron in the body of a warforged makes him vulnerable to <i>rusting grasp</i>.
+ The creature takes 2d6 points of damage from the spell (Reflex half; 
+save DC 14 + caster's ability modifier). A warforged takes the same 
+damage from a rust monster's touch (Reflex DC 17 half)." That's the same
+ save DC listed in the <i>Monster Manual</i> entry; Con-based and with a +4 racial bonus.</p>
+<p align="left">We thought of everything. Or almost everything... <br><i>-- James Wyatt</i></p>
+</td>
+</tr>
+</tbody></table>
+<p align="left">The solution is to look at the design intent behind the 
+rust monster, take the basic theme behind its abilities, and build new 
+mechanics that realize the designer's goal without making the rust 
+monster too powerful.</p>
+<p align="left">Here's a list of what I think the rust monster tries to achieve:</p>
+<ul>
+<li>Scare the heavily armored guys.</li>
+<li>Give leather-armored guys a chance to shine.</li>
+<li>Make a memorable encounter where the PCs use different weapons than normal (wooden ones in this case).</li>
+<li>Attack something other than the PCs' hit points. In this case, their AC and attacks via their weapons, armor, and shields.</li>
+</ul>
+<p align="left">The current rules do these things, but they also cause 
+the complications I’ve discussed. So at this point we're looking at a 
+redesign of the rust ability. We can alter the DC, or the amount of 
+metal rusted at one time, but the fact remains that the root of our 
+troubles is that the rust monster hits an item once (or is hit by it) 
+and destroys it. The rust monster might still have the ability to turn 
+metal into rust, but the current “one attack destruction” is too much; 
+so, here's the redeveloped version:</p>
+<blockquote><b>Rust (Su):</b> A rust monster that makes a successful 
+touch attack with its antennae causes the target metal to corrode, warp,
+ and crack. Any metal weapons, armor, and shields carried by a creature 
+struck are weakened by this effect. The bonus to AC provided by an armor
+ or shield drops by 2, to a minimum of 0. Weapons suffer a –2 penalty on
+ attacks and damage, with a maximum penalty of –6. Magic armor and 
+weapons, and other magic items made of metal, must succeed on a DC 17 
+Reflex save to resist this effect. The save DC is Constitution-based and
+ includes a +4 racial bonus.<br><br> These penalties last for 10 
+minutes. A rust monster that spends 5 minutes devouring a metal object 
+(whether magical or mundane) transforms it into rust, destroying it 
+permanently.<br><br> A metal weapon that deals damage to a rust monster 
+also suffers this warping and corroding effect. Wooden, stone, and other
+ nonmetallic weapons are unaffected.</blockquote>
+<p align="left"> As you can see, the effect is now much less punishing. 
+It slowly reduces an item's capabilities without crippling them. The 
+recovery time also allow the PCs to rest for a bit, and then continue 
+with the adventure. The rust monster still works well when paired with 
+other creatures, especially if the next encounter takes place soon after
+ the rust monster fight.</p>
+<p align="left"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/designdev_rust3rd.jpg" align="right" border="0">Finally,
+ the rest of the creature bears some examination. It could use a 
+slightly better secondary attack, especially after the PCs "solve" the 
+rust monster and put away their metal gear. At that point, the beast is a
+ push over. It also has more hit points and a better AC than an ogre, 
+but those numbers are fine since the longer the rust monster sticks 
+around in a fight, the more chances it has to show off its abilities.</p>
+<p align="left">To boost its attack, I swap out its Alertness feat for 
+Multiattack. I also increase its Strength to 14, to improve its damage 
+and attack. Its bite should inflict the standard 1d6 damage for a Medium
+ creature, rather than 1d3.</p>
+<p align="left">The final change I make verges on personal preference. 
+(Normally, the rest of the development team would be here to approve 
+this decision.) I decide to re-allocate the rust monster's skill ranks 
+into Hide and Move Silently, drop Track and replace it with Weapon 
+Finesse, and give it a climb speed. The rust monster makes a good 
+ambusher or lurking threat. If it can leap upon the party and get off 
+the first attack from ambush, it slaps its rust ability on the party's 
+fighter and gains a big edge in the fight.</p>
+<p align="left">And that's that. Normally, development would also read over the creature's flavor. The <i>Monster Manual</i>
+ uses a different format than the standard monster presentation, so 
+there's a lot less background to deal with. I'll skip that phase for 
+this example.</p>
+<p class="size3" align="left"><b>Playtesting</b></p>
+<p align="left">To finish the process, I ran an encounter with an ogre 
+mage, a rust monster, and an ogre against a party of three 6th-level 
+adventurers ably played by <b>D&amp;D</b> designer James Wyatt (as 
+cleric), web guru Bart Carroll (flesh golem), and archmage of accounting
+ Steven Montano (scout). The rust monster did great in the playtest. It 
+stripped James's AC down by 6 points, allowing the ogre mage to fly in, 
+flank, and drop him to single digit hit points with one mighty attack. 
+Good times for the DM!</p>
+<p align="left">The playtest showed me that the climb speed and the bite
+ attack were good changes. The rust monster managed to gnaw on James's 
+cleric a few times, plus its climb speed allowed it to zoom past 
+Steven's leather-armored scout and attack James. The one change I made 
+is to boost the climb speed to increase the rust monster's 
+maneuverability.</p>
+<table border="1"><tbody><tr><td>
+<p align="left"><b>RUST MONSTER CR 3</b><br>Medium Aberration<br><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., scent; Listen +1, Spot +1<br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/grey_newline.jpg" border="0" height="7" width="200"><br><b>AC</b> 18, <b>touch</b> 13, <b>flat-footed</b> 15<br><b>hp</b> 27 (5 HD)<br><b>Fort</b> +2, <b>Ref</b> +4, <b>Will</b> +5<br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/grey_newline.jpg" border="0" height="7" width="200"><br><b>Speed</b> 40 ft. (8 squares), climb 40 ft.<br><b>Melee</b> antennae touch +7 (rust) and<br>bite +5 (1d6+2)<br><b>Space</b> 5 ft.; <b>Reach</b> 5 ft.<br><b>Base Atk</b> +3; <b>Grp</b> +3<br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/grey_newline.jpg" border="0" height="7" width="200"><br><b>Abilities</b> Str 14, Dex 17, Con 13, Int 2, Wis 13, Cha 8<br><b>Feats</b> Multiattack, Weapon Finesse<br><b>Skills</b> Climb +10, Hide +7, Move Silently +7<br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/grey_newline.jpg" border="0" height="7" width="200"><br><b>Rust (Su):</b>
+ A rust monster that makes a successful touch attack with its antennae 
+causes the target metal to corrode, warp, and crack. Any metal weapons, 
+armor, and shields carried by a creature struck are weakened by this 
+effect. The bonus to AC provided by an armor or shield drops by 2, to a 
+minimum of 0. Weapons suffer a –2 penalty on attacks and damage, with a 
+maximum penalty of –6. Magic armor and weapons, and other magic items 
+made of metal, must succeed on a DC 17 Reflex save or be dissolved. The 
+save DC is Constitution-based and includes a +4 racial bonus.<br><br>These
+ penalties last for 10 minutes. A rust monster that spends 5 minutes 
+devouring a metal object (whether magical or mundane) transforms it into
+ rust, destroying it permanently.<br><br>A metal weapon that deals 
+damage to a rust monster also suffers this warping and corroding effect.
+ Wooden, stone, and other nonmetallic weapons are unaffected.</p>
+</td>
+</tr>
+</tbody></table>
+<p class="size3" align="left"><b>Feedback</b></p>
+<p align="left">In addition to the article feedback we always hope to 
+hear from you, we also wanted to ask if there's a monster currently in 
+the game that you'd like to see redeveloped. Of course, we also love a 
+good tale as well -- have one about rust monsters in your game and 
+memorable encounters against them? Drop us a line at <a href="mailto:dndcolumn@wizards.com">dndcolumn@wizards.com</a>!</p>
+<hr>
+<p class="size3" align="left"><b>About the Author</b></p>
+<p align="left"><b>Mike Mearls</b> is the dark hope of chaotic evil: 
+young, handsome, well endowed in abilities and aptitudes, thoroughly 
+wicked, depraved, and capricious. Whomever harms Mearls had better not 
+brag of it in the presence of one who will inform the Demoness Lolth!</p>
+<p align="left">Evil to the core, Mearls is cunning, and if the 
+situation appears in doubt, he will use bribery and honeyed words to 
+sway the balance in his favor. He is not at all adverse to gaining new 
+recruits of any sort, and will gladly accept adventurers into the ranks,
+ but he will test and try them continually. Those who arouse suspicion 
+will be quietly murdered in their sleep; those with too much promise 
+will be likewise dealt with, for Mearls wants no potential usurpers or 
+threats to his domination.</p>
+</td>
+<td valign="top" width="100%"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" height="410" width="1"></td>
+</tr>
+</tbody></table>
+</td></tr>
+<tr>
+<td colspan="2"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="15" width="10"><table cellpadding="0" cellspacing="0" border="0" width="610"><tbody><tr><td width="300">
+<table cellpadding="0" cellspacing="0" border="0" width="301"><tbody><tr><td colspan="3" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1a.jpg" height="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1a.jpg" border="0" height="5" width="301"></td>
+</tr>
+<tr><td background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1c.jpg" width="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1c.jpg" border="0" height="113" width="4"></td>
+<td valign="top" width="292">
+<table cellpadding="0" cellspacing="0" border="0" width="292"><tbody><tr><td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="20" width="5"></td>
+<td class="size3" align="left" width="282"><b>Recent Design &amp; Development
+</b></td>
+<td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="20" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="77" width="5"></td>
+<td valign="top" width="282">
+<div class="boxscroll"><table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070803a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070803a">How to Make a Monster Manual, Part 2</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070803a">08/03/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070727a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070727a">How to Make a Monster Manual, Part 1</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070727a">07/27/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070413a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070413a">Dreamblade Minis… in your D&amp;D Game</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070413a">04/13/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070316a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070316a">Magic Item Compendium, part 3</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070316a">03/16/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/dd/20070309a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070309a">Magic Item Compendium, part 2</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20070309a">03/09/2007</a></td></tr></tbody></table>
+</div>
+</td>
+<td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="77" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="16" width="5"></td>
+<td align="right" width="282"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/arch/dd" class="seriesmore">(MORE)</a></td>
+<td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="16" width="5"></td>
+</tr>
+</tbody></table>
+</td>
+<td background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1d.jpg" width="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1d.jpg" border="0" height="113" width="4"></td>
+</tr>
+<tr><td colspan="3" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1b.jpg" height="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_1b.jpg" border="0" height="4" width="301"></td>
+</tr>
+</tbody></table>
+</td>
+<td width="8"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="20" width="8"></td>
+<td width="300">
+<table cellpadding="0" cellspacing="0" border="0" width="301"><tbody><tr><td colspan="3" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2a.jpg" height="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2a.jpg" border="0" height="5" width="301"></td>
+</tr>
+<tr><td background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2c.jpg" width="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2c.jpg" border="0" height="113" width="4"></td>
+<td valign="top" width="292">
+<table cellpadding="0" cellspacing="0" border="0" width="292"><tbody><tr><td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="20" width="5"></td>
+<td class="size3" align="left" width="282"><b>Recent Articles</b></td>
+<td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="20" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="77" width="5"></td>
+<td valign="top" width="282">
+<div class="boxscroll"><table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/news/20070418a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/news/20070418a">This Month's <i>Dragon</i> Magazine</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/news/20070418a">04/26/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/ebxe/20070924a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/ebxe/20070924a">Chapter 2: Conflict</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/ebxe/20070924a">09/24/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/frcc/20070918');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/frcc/20070918">Eastern Classes</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/frcc/20070918">09/18/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/frcc/20070911');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/frcc/20070911">Crusaders, Swordsages, Warblades</a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/frcc/20070911">09/11/2007</a></td></tr></tbody></table>
+<table onmouseover="this.style.backgroundColor='#f5efd8'" onmouseout="this.style.backgroundColor='#FFFFFF'" style="cursor:hand" onclick="location.href('/default.asp?x=dnd/4ex/20070904a');" cellpadding="0" cellspacing="0" border="0" width="99%"><tbody><tr>
+<td align="left" valign="top" width="11"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_dot.gif" height="2" width="11"><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/black_bullet2.gif" border="0"></td>
+<td align="left" valign="top" width="206"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/4ex/20070904a"><i>Fortress of the Yuan-Ti</i></a></td>
+<td align="right" valign="top" width="60"><a class="serieslink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/4ex/20070904a">09/04/2007</a></td></tr></tbody></table>
+</div>
+</td>
+<td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="77" width="5"></td>
+</tr>
+<tr><td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="16" width="5"></td>
+<td align="right" width="282"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/archives" class="seriesmore">(MORE)</a></td>
+<td width="5"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_dot.jpg" border="0" height="16" width="5"></td>
+</tr>
+</tbody></table>
+</td>
+<td background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2d.jpg" width="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2d.jpg" border="0" height="113" width="5"></td>
+</tr>
+<tr><td colspan="3" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2b.jpg" height="4"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/article_box_2b.jpg" border="0" height="4" width="301"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table></td></tr>
+</tbody></table>
+</td>
+<td width="10"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/spacer_1_1.gif" alt="" border="0" height="5" width="8"></td>
+<td valign="top" width="128"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/dnd35right.jpg" border="0"></td>
+</tr>
+<tr><td colspan="5" align="center"><br><table cellpadding="0" cellspacing="0" border="0" width="910"><tbody><tr><td><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/footer_new_1.jpg" border="0" height="19" width="152"></td>
+<td>
+<table cellpadding="0" cellspacing="0" align="center" background="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/footer_new_2a.jpg" border="0" width="630"><tbody><tr><td align="center">
+<table cellpadding="0" cellspacing="0" align="center" border="0"><tbody><tr><td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="19" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=aboutus/aboutwizards" class="footerlinknew">About Us</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=aboutus/jobs" class="footerlinknew">Jobs</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=newtothegame" class="footerlinknew">New to the Game?</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=insidewizards" class="footerlinknew">Inside Wizards</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=findastore" class="footerlinknew">Find a Store</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=aboutus/press" class="footerlinknew">Press</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://wizards.custhelp.com/cgi-bin/wizards.cfg/php/enduser/std_alp.php" class="footerlinknew">Help</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/white_bullet.gif" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="9" width="7"></td>
+<td align="center"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=sitemap" class="footerlinknew">Sitemap</a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="19" width="7"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/footer_new_3.jpg" border="0"></td>
+</tr>
+</tbody></table><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="3" width="10"><br><table cellpadding="0" cellspacing="0" border="0" width="910"><tbody><tr><td align="center" width="150"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=company/privacystatement"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/ectppswizards.gif" border="0" height="43" width="116"></a></td>
+<td align="center"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="7" width="10"><span class="footerlink">©1995-<script type="text/javascript" language="JavaScript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/currentYear.js"></script>2014 Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc. All Rights Reserved.</span><br><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="3" width="10"><br><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=copyrightnotice" class="footerlink">Terms of Use</a><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="10" width="10">-<img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="10" width="10"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=privacystatement" class="footerlink">Privacy Statement</a></td>
+<td align="center" width="150"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/cleardot.gif" border="0" height="78" width="116"></td>
+</tr>
+</tbody></table><br></td></tr>
+</tbody></table>
+</div>
+
+<div style="position:absolute; margin-left: -120px; left: 50%;  top:69px; width:400px; height:17px; z-index:3"><span class="breadcrumb"><a class="breadcrumb" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/">Home</a>&nbsp;&gt; <a class="breadcrumb" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=games">Games</a>&nbsp;&gt; <a class="breadcrumb" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/dnd">D&amp;D</a>&nbsp;&gt; <a class="breadcrumb" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/features">Articles</a>&nbsp;</span></div>
+<div style="position:absolute; margin-left: -443px; left: 50%;  top:587px; width:17px; height:17px; z-index:3"><a onmouseout="document.imagesecretdnd.src='/dnd/images/sx.jpg'" onmouseover="document.imagesecretdnd.src='/dnd/images/s.jpg'" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/dnd/secretdoor.asp"><img name="imagesecretdnd" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/sx.jpg" alt="You have found a Secret Door!" border="0"></a></div>
+<div style="position:absolute;  margin-left: 190px; left: 50%; top:115px; width:130px; height:17px; z-index:2" align="center">
+<table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/printerfriendly_tiny1.gif" alt="Printer Friendly" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a target="_blank" class="pflink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20060714a&amp;pf=true">
+Printer Friendly</a></td></tr></tbody></table><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="1" width="100"><table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/email_tiny1.gif" alt="Email A Friend" align="middle" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a class="pflink" href="javascript://" onclick="window.open('/global/emailtofriend.asp?url=/web/20130531094127/http://www.wizards.com/default.asp?x=dnd/dd/20060714a&amp;headline=Monster Makeover', 'emailWindow', 'left=150, top=50, screenX=200, screenY=100, resizable=yes, scrollbars=no, toolbar=no, width=500, height=540')">
+Email A Friend</a></td></tr></tbody></table><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="1" width="100"><table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/boards_tiny.gif" alt="Discuss This Article" align="middle" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a class="pflink" target="_blank" href="http://web.archive.org/web/20130531094127/http://boards1.wizards.com/showthread.php?p=9143662">Discuss This Article</a></td></tr></tbody></table><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="1" width="100"><table cellpadding="0" cellspacing="0" border="0" width="130"><tbody><tr><td valign="middle" width="20"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/download_tiny1.gif" alt="Download This Article (.zip)" align="middle" border="0"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/clear_new.gif" height="3" width="3"></td><td valign="middle"><a class="pflink" href="http://web.archive.org/web/20130531094127/http://www.wizards.com/dnd/files/articles/dnd_dd_20060714a.zip">Download This Article</a></td></tr></tbody></table></div>
+<div style="width: 94px; height: 94px; position: absolute; margin-left: -450px; left: 50%; top: 5px; z-index:25"><a href="http://web.archive.org/web/20130531094127/http://www.wizards.com/"><img src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/fp_logotest.png" alt="" border="0" height="60" width="94"></a></div>
+<script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/ga.js"></script>
+<script type="text/javascript"> try { var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-15020098-1']); _gaq.push(['_trackPageview']); } catch(err) { } </script><script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/jquery_002.js"></script><script type="text/javascript" src="2006%20-%2007-14%20-%20Monster%20Makeover%20-%20The%20Rust%20Monster_files/Dnd35NextBox.js"></script>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 9:41:27 May 31, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:43:15 Jul 30, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+</body></html>
+<!--This page is not cached-->
